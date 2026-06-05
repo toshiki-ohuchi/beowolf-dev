@@ -1,0 +1,23 @@
+名前,メンバー,説明
+Access Control Assistance Operators,,このグループのメンバーは、このコンピューター上のリソースの認証属性およびアクセス許可をリモートから照会できます。
+Administrators,Administrator;Domain Admins,コンピューター/ドメインに完全なアクセス権があります。
+Backup Operators,,Backup Operators は、バックアップの作成またはファイルを復元するときには、セキュリティの制限を無視することができます。
+Cryptographic Operators,,メンバーは、暗号化操作の実行を許可されています。
+Device Owners,,このグループのメンバーは、システム全体の設定を変更できます。
+Distributed COM Users,,メンバーは、このコンピューターで分散 COM オブジェクトを起動、アクティブ化、および使用できます。
+Event Log Readers,,このグループのメンバーは、ローカル コンピューターからイベント ログを読み取ることができます。
+Guests,Guest,既定では Users グループのメンバーと同じアクセスがあります。ただし、Guest アカウントは例外で、アクセスがさらに制限されています。
+Hyper-V Administrators,,このグループのメンバーには、Hyper-V のすべての機能に対する完全なアクセス権があります。
+IIS_IUSRS,IUSR,インターネット インフォメーション サービスで使用するビルトイン グループです。
+Network Configuration Operators,,このグループのメンバーはネットワーク機能の構成を管理するための管理者特権を持つことができます。
+OpenSSH ユーザー ,,このグループのメンバーは、SSH.
+ を使用してこのコンピューターに接続でき
+Performance Log Users,,このグループのメンバーは、このコンピューターから、ローカルでもリモート アクセスをとおしてでも、このコンピューターのパフォーマンス カウンターのログをスケジュールし、トレース プロバイダーを有効にし、イベント トレースを収集することができます。
+Performance Monitor Users,,このグループのメンバーは、ローカルやリモートのパフォーマンス カウンター データへアクセスできます。
+Power Users,,Power Users は、後方互換のためのもので、管理者の権限が制限付きで与えられています。
+Remote Desktop Users,,このグループのメンバーにはリモートからログオンする権利が与えられています。
+Remote Management Users,,このグループのメンバーは、管理プロトコル (Windows リモート管理サービス経由の WS-Management など) を介して、WMI リソースにアクセスできます。これは、ユーザーにアクセスを許可している WMI 名前空間にのみ適用されます。
+Replicator,,ドメイン内のファイル レプリケーションをサポートします。
+System Managed Accounts Group,DefaultAccount,このグループのメンバーはシステムで管理されています。
+Users,INTERACTIVE;Authenticated Users;Domain Users,ユーザーが、システム全体に及ぶ変更を間違ってまたは故意に行うことを防ぎます。ほとんどのアプリケーションを実行することができます。
+ユーザー モード ハードウェア オペレーター,,このグループのメンバーは、ユーザー モードからハードウェアを操作できます。

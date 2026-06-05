@@ -1,0 +1,10 @@
+共有名,パス,説明,アカウント名,アクセス権,アクセス許可
+ADMIN$,C:\WINDOWS,Remote Admin,BUILTIN\Administrators,許可,フルコントロール
+ADMIN$,C:\WINDOWS,Remote Admin,BUILTIN\Backup Operators,許可,フルコントロール
+ADMIN$,C:\WINDOWS,Remote Admin,NT AUTHORITY\INTERACTIVE,許可,フルコントロール
+C$,C:\,Default share,BUILTIN\Administrators,許可,フルコントロール
+C$,C:\,Default share,BUILTIN\Backup Operators,許可,フルコントロール
+C$,C:\,Default share,NT AUTHORITY\INTERACTIVE,許可,フルコントロール
+IPC$,,Remote IPC,BUILTIN\Administrators,許可,フルコントロール
+IPC$,,Remote IPC,BUILTIN\Backup Operators,許可,フルコントロール
+IPC$,,Remote IPC,NT AUTHORITY\INTERACTIVE,許可,フルコントロール
