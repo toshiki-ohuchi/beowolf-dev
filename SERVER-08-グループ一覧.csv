@@ -1,0 +1,52 @@
+名前,メンバー,説明
+Server Operators,,ドメイン サーバーを管理できます。
+Account Operators,,ドメイン ユーザーとグループのアカウントを管理できます。
+Pre-Windows 2000 Compatible Access,Authenticated Users,ドメイン内のすべてのユーザーとグループに読み取りアクセスを許可する、後方互換のためのグループです
+Incoming Forest Trust Builders,,このグループのメンバーは、このフォレストへの入力方向 (一方向) の信頼を作成することができます。
+Windows Authorization Access Group,ENTERPRISE DOMAIN CONTROLLERS,このグループのメンバーは、User オブジェクトの tokenGroupsGlobalAndUniversal 属性にアクセスがあります。
+Terminal Server License Servers,,このグループのメンバーは、TS 接続ユーザー数 CAL の使用状況を追跡および報告することを目的として、Active Directory 内のユーザー アカウントをライセンス発行に関する情報で更新できます。
+Administrators,Administrator;Enterprise Admins;Domain Admins,コンピューター/ドメインに完全なアクセス権があります。
+Users,INTERACTIVE;Authenticated Users;Domain Users,ユーザーが、システム全体に及ぶ変更を間違ってまたは故意に行うことを防ぎます。ほとんどのアプリケーションを実行することができます。
+Guests,Guest;Domain Guests,既定では Users グループのメンバーと同じアクセスがあります。ただし、Guest アカウントは例外で、アクセスがさらに制限されています。
+Print Operators,,ドメイン コントローラーにインストールされているプリンターを管理できます
+Backup Operators,,Backup Operators は、バックアップの作成またはファイルを復元するときには、セキュリティの制限を無視することができます。
+Replicator,,ドメイン内のファイル レプリケーションをサポートします。
+Remote Desktop Users,,このグループのメンバーにはリモートからログオンする権利が与えられています。
+Network Configuration Operators,,このグループのメンバーはネットワーク機能の構成を管理するための管理者特権を持つことができます。
+Performance Monitor Users,,このグループのメンバーは、ローカルやリモートのパフォーマンス カウンター データへアクセスできます。
+Performance Log Users,,このグループのメンバーは、このコンピューターから、ローカルでもリモート アクセスをとおしてでも、このコンピューターのパフォーマンス カウンターのログをスケジュールし、トレース プロバイダーを有効にし、イベント トレースを収集することができます。
+Distributed COM Users,,メンバーは、このコンピューターで分散 COM オブジェクトを起動、アクティブ化、および使用できます。
+IIS_IUSRS,,インターネット インフォメーション サービスで使用するビルトイン グループです。
+Cryptographic Operators,,メンバーは、暗号化操作の実行を許可されています。
+Event Log Readers,,このグループのメンバーは、ローカル コンピューターからイベント ログを読み取ることができます。
+Certificate Service DCOM Access,,このグループのメンバーは、エンタープライズの証明機関に接続できます。
+RDS Remote Access Servers,,このグループのサーバーは、RemoteApp プログラムおよび個人用仮想デスクトップのユーザーがこれらのリソースにアクセスできるようにします。インターネットに接続する展開では、境界ネットワークに展開されるのが一般的です。このグループは、RD 接続ブローカーを実行するサーバーで設定する必要があります。展開で使用する RD ゲートウェイ サーバーと RD Web アクセス サーバーを含める必要があります。
+RDS Endpoint Servers,,このグループのサーバーは、仮想マシンを実行し、ユーザーの RemoteApp プログラムと個人用仮想デスクトップが実行されるセッションをホストします。このグループは、RD 接続ブローカーを実行するサーバーで設定する必要があります。展開で使用する RD セッション ホスト サーバーと RD 仮想化ホスト サーバーを含める必要があります。
+RDS Management Servers,,このグループのサーバーは、リモート デスクトップ サービスを実行するサーバーで日常的な管理操作を実行できます。このグループは、リモート デスクトップ サービスの展開のすべてのサーバーで設定する必要があります。RDS Central Management サービスを実行するサーバーを含める必要があります。
+Hyper-V Administrators,,このグループのメンバーには、Hyper-V のすべての機能に対する完全なアクセス権があります。
+Access Control Assistance Operators,,このグループのメンバーは、このコンピューター上のリソースの認証属性およびアクセス許可をリモートから照会できます。
+Remote Management Users,,このグループのメンバーは、管理プロトコル (Windows リモート管理サービス経由の WS-Management など) を介して、WMI リソースにアクセスできます。これは、ユーザーにアクセスを許可している WMI 名前空間にのみ適用されます。
+Storage Replica Administrators,,このグループのメンバーには、記憶域レプリカのすべての機能に対する完全なアクセス権があります。
+Cert Publishers,,このグループのメンバーはディレクトリに証明書を公開できます
+RAS and IAS Servers,,このグループのサーバーはユーザーのリモート アクセスのプロパティにアクセスできます。
+Allowed RODC Password Replication Group,,このグループのメンバーは、ドメインのすべての読み取り専用ドメイン コントローラーにパスワードをレプリケートできます。
+Denied RODC Password Replication Group,krbtgt;Domain Controllers;Schema Admins;Enterprise Admins;Cert Publishers;Domain Admins;Group Policy Creator Owners;Read-only Domain Controllers,このグループのメンバーは、ドメインのどの読み取り専用ドメイン コントローラーにもパスワードをレプリケートできません。
+DnsAdmins,,DNS 管理者グループ
+SQLServer2005SQLBrowserUser$SERVER,,グループ内のメンバーには、SQL Server Browser の関連付けられたインスタンスのログオン アカウントに必要なアクセス権と特権が割り当てられています。
+Cloneable Domain Controllers,,このグループの、ドメイン コントローラーであるメンバーは、複製されます。
+DnsUpdateProxy,,DHCP サーバーなどのほかのクライアントに代わって動的な更新を行うことを許可されている DNS クライアントです。
+Domain Admins,Administrator,ドメインの管理者
+Domain Computers,S01$;S02$;S03$;S04$;S05$;S06$;S07$;S08$;S09$;S10$;S11$;S12$;S13$;S14$;S15$;S16$;S17$;S18$;S19$;S20$;S21$;S22$;S23$;S24$;S25$;S26$;S27$;S28$;S29$;S30$;S31$;S32$;S33$;S34$;S35$;S36$;S37$,ドメインのすべてのワークステーションとサーバー
+Domain Controllers,SERVER$,ドメインのすべてのドメイン コントローラー
+Domain Guests,Guest,ドメインの全ゲスト
+Domain Users,Administrator;krbtgt;S01;S02;S03;S04;S05;S06;S07;S08;S09;S10;S11;S12;S13;S14;S15;S16;S17;S18;S19;S20;S21;S22;S23;S24;S25;S26;S27;S28;S29;S30;S31;S32;S33;S34;S35;S36;S37;S38;S39;S40;teacher;test01;test02;test03;test04;test05;test06;test07;test08;test09;test10;TM_OSCE_SERVER,ドメインの全ユーザー
+Enterprise Admins,Administrator,エンタープライズの管理者
+Enterprise Key Admins,,このグループのメンバーは、フォレスト内のキー オブジェクトに対する管理操作を実行できます。
+Enterprise Read-only Domain Controllers,,このグループのメンバーは、エンタープライズの読み取り専用ドメイン コントローラーです。
+Group Policy Creator Owners,Administrator,このグループのメンバーはドメインのグループ ポリシーを変更できます。
+Key Admins,,このグループのメンバーは、ドメイン内のキー オブジェクトに対する管理操作を実行できます。
+Protected Users,,このグループのメンバーには、認証セキュリティの脅威に対する追加の保護が提供されます。詳細については、http://go.microsoft.com/fwlink/?LinkId=298939 を参照してください。
+Read-only Domain Controllers,,このグループのメンバーは、ドメインの読み取り専用ドメイン コントローラーです。
+Schema Admins,Administrator,スキーマの指定された管理者
+Seito,S01;S02;S03;S04;S05;S06;S07;S08;S09;S10;S11;S12;S13;S14;S15;S16;S17;S18;S19;S20;S21;S22;S23;S24;S25;S26;S27;S28;S29;S30;S31;S32;S33;S34;S35;S36;S37;S38;S39;S40;test01;test02;test03;test04;test05;test06;test07;test08;test09;test10,
+Sensei,teacher,

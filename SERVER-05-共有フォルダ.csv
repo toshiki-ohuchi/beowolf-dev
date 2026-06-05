@@ -1,0 +1,29 @@
+共有名,パス,説明,アカウント名,アクセス権,アクセス許可
+ADMIN$,C:\Windows,Remote Admin,BUILTIN\Administrators,許可,フルコントロール
+ADMIN$,C:\Windows,Remote Admin,BUILTIN\Backup Operators,許可,フルコントロール
+ADMIN$,C:\Windows,Remote Admin,NT AUTHORITY\INTERACTIVE,許可,フルコントロール
+C$,C:\,Default share,BUILTIN\Administrators,許可,フルコントロール
+C$,C:\,Default share,BUILTIN\Backup Operators,許可,フルコントロール
+C$,C:\,Default share,NT AUTHORITY\INTERACTIVE,許可,フルコントロール
+D$,D:\,Default share,BUILTIN\Administrators,許可,フルコントロール
+D$,D:\,Default share,BUILTIN\Backup Operators,許可,フルコントロール
+D$,D:\,Default share,NT AUTHORITY\INTERACTIVE,許可,フルコントロール
+E$,E:\,Default share,BUILTIN\Administrators,許可,フルコントロール
+E$,E:\,Default share,BUILTIN\Backup Operators,許可,フルコントロール
+E$,E:\,Default share,NT AUTHORITY\INTERACTIVE,許可,フルコントロール
+H$,H:\,Default share,BUILTIN\Administrators,許可,フルコントロール
+H$,H:\,Default share,BUILTIN\Backup Operators,許可,フルコントロール
+H$,H:\,Default share,NT AUTHORITY\INTERACTIVE,許可,フルコントロール
+IPC$,,Remote IPC,BUILTIN\Administrators,許可,フルコントロール
+IPC$,,Remote IPC,BUILTIN\Backup Operators,許可,フルコントロール
+IPC$,,Remote IPC,NT AUTHORITY\INTERACTIVE,許可,フルコントロール
+NETLOGON,C:\Windows\SYSVOL\sysvol\call.local\SCRIPTS,Logon server share ,Everyone,許可,読み取り
+NETLOGON,C:\Windows\SYSVOL\sysvol\call.local\SCRIPTS,Logon server share ,BUILTIN\Administrators,許可,フルコントロール
+ofcscan,C:\Program Files (x86)\Trend Micro\Apex One\PCCSRV,,BUILTIN\Administrators,許可,フルコントロール
+ofcscan,C:\Program Files (x86)\Trend Micro\Apex One\PCCSRV,,Everyone,許可,読み取り
+SYSVOL,C:\Windows\SYSVOL\sysvol,Logon server share ,Everyone,許可,読み取り
+SYSVOL,C:\Windows\SYSVOL\sysvol,Logon server share ,BUILTIN\Administrators,許可,フルコントロール
+SYSVOL,C:\Windows\SYSVOL\sysvol,Logon server share ,NT AUTHORITY\Authenticated Users,許可,フルコントロール
+先生共有$,D:\share\先生共有,,Everyone,許可,フルコントロール
+共有,D:\share\共有,,Everyone,許可,フルコントロール
+提出,D:\share\提出,,Everyone,許可,フルコントロール

@@ -1,0 +1,51 @@
+call.local,Builtin,Administrators,ドメインローカル,セキュリティ,コンピューター/ドメインに完全なアクセス権があります。
+call.local,Builtin,Users,ドメインローカル,セキュリティ,ユーザーが、システム全体に及ぶ変更を間違ってまたは故意に行うことを防ぎます。ほとんどのアプリケーションを実行することができます。
+call.local,Builtin,Guests,ドメインローカル,セキュリティ,既定では Users グループのメンバーと同じアクセスがあります。ただし、Guest アカウントは例外で、アクセスがさらに制限されています。
+call.local,Builtin,Print Operators,ドメインローカル,セキュリティ,ドメイン コントローラーにインストールされているプリンターを管理できます
+call.local,Builtin,Backup Operators,ドメインローカル,セキュリティ,Backup Operators は、バックアップの作成またはファイルを復元するときには、セキュリティの制限を無視することができます。
+call.local,Builtin,Replicator,ドメインローカル,セキュリティ,ドメイン内のファイル レプリケーションをサポートします。
+call.local,Builtin,Remote Desktop Users,ドメインローカル,セキュリティ,このグループのメンバーにはリモートからログオンする権利が与えられています。
+call.local,Builtin,Network Configuration Operators,ドメインローカル,セキュリティ,このグループのメンバーはネットワーク機能の構成を管理するための管理者特権を持つことができます。
+call.local,Builtin,Performance Monitor Users,ドメインローカル,セキュリティ,このグループのメンバーは、ローカルやリモートのパフォーマンス カウンター データへアクセスできます。
+call.local,Builtin,Performance Log Users,ドメインローカル,セキュリティ,このグループのメンバーは、このコンピューターから、ローカルでもリモート アクセスをとおしてでも、このコンピューターのパフォーマンス カウンターのログをスケジュールし、トレース プロバイダーを有効にし、イベント トレースを収集することができます。
+call.local,Builtin,Distributed COM Users,ドメインローカル,セキュリティ,メンバーは、このコンピューターで分散 COM オブジェクトを起動、アクティブ化、および使用できます。
+call.local,Builtin,IIS_IUSRS,ドメインローカル,セキュリティ,インターネット インフォメーション サービスで使用するビルトイン グループです。
+call.local,Builtin,Cryptographic Operators,ドメインローカル,セキュリティ,メンバーは、暗号化操作の実行を許可されています。
+call.local,Builtin,Event Log Readers,ドメインローカル,セキュリティ,このグループのメンバーは、ローカル コンピューターからイベント ログを読み取ることができます。
+call.local,Builtin,Certificate Service DCOM Access,ドメインローカル,セキュリティ,このグループのメンバーは、エンタープライズの証明機関に接続できます。
+call.local,Builtin,RDS Remote Access Servers,ドメインローカル,セキュリティ,このグループのサーバーは、RemoteApp プログラムおよび個人用仮想デスクトップのユーザーがこれらのリソースにアクセスできるようにします。インターネットに接続する展開では、境界ネットワークに展開されるのが一般的です。このグループは、RD 接続ブローカーを実行するサーバーで設定する必要があります。展開で使用する RD ゲートウェイ サーバーと RD Web アクセス サーバーを含める必要があります。
+call.local,Builtin,RDS Endpoint Servers,ドメインローカル,セキュリティ,このグループのサーバーは、仮想マシンを実行し、ユーザーの RemoteApp プログラムと個人用仮想デスクトップが実行されるセッションをホストします。このグループは、RD 接続ブローカーを実行するサーバーで設定する必要があります。展開で使用する RD セッション ホスト サーバーと RD 仮想化ホスト サーバーを含める必要があります。
+call.local,Builtin,RDS Management Servers,ドメインローカル,セキュリティ,このグループのサーバーは、リモート デスクトップ サービスを実行するサーバーで日常的な管理操作を実行できます。このグループは、リモート デスクトップ サービスの展開のすべてのサーバーで設定する必要があります。RDS Central Management サービスを実行するサーバーを含める必要があります。
+call.local,Builtin,Hyper-V Administrators,ドメインローカル,セキュリティ,このグループのメンバーには、Hyper-V のすべての機能に対する完全なアクセス権があります。
+call.local,Builtin,Access Control Assistance Operators,ドメインローカル,セキュリティ,このグループのメンバーは、このコンピューター上のリソースの認証属性およびアクセス許可をリモートから照会できます。
+call.local,Builtin,Remote Management Users,ドメインローカル,セキュリティ,このグループのメンバーは、管理プロトコル (Windows リモート管理サービス経由の WS-Management など) を介して、WMI リソースにアクセスできます。これは、ユーザーにアクセスを許可している WMI 名前空間にのみ適用されます。
+call.local,Builtin,Storage Replica Administrators,ドメインローカル,セキュリティ,このグループのメンバーには、記憶域レプリカのすべての機能に対する完全なアクセス権があります。
+call.local,Users,Domain Computers,グローバル,セキュリティ,ドメインのすべてのワークステーションとサーバー
+call.local,Users,Domain Controllers,グローバル,セキュリティ,ドメインのすべてのドメイン コントローラー
+call.local,Users,Schema Admins,ユニバーサル,セキュリティ,スキーマの指定された管理者
+call.local,Users,Enterprise Admins,ユニバーサル,セキュリティ,エンタープライズの管理者
+call.local,Users,Cert Publishers,ドメインローカル,セキュリティ,このグループのメンバーはディレクトリに証明書を公開できます
+call.local,Users,Domain Admins,グローバル,セキュリティ,ドメインの管理者
+call.local,Users,Domain Users,グローバル,セキュリティ,ドメインの全ユーザー
+call.local,Users,Domain Guests,グローバル,セキュリティ,ドメインの全ゲスト
+call.local,Users,Group Policy Creator Owners,グローバル,セキュリティ,このグループのメンバーはドメインのグループ ポリシーを変更できます。
+call.local,Users,RAS and IAS Servers,ドメインローカル,セキュリティ,このグループのサーバーはユーザーのリモート アクセスのプロパティにアクセスできます。
+call.local,Builtin,Server Operators,ドメインローカル,セキュリティ,ドメイン サーバーを管理できます。
+call.local,Builtin,Account Operators,ドメインローカル,セキュリティ,ドメイン ユーザーとグループのアカウントを管理できます。
+call.local,Builtin,Pre-Windows 2000 Compatible Access,ドメインローカル,セキュリティ,ドメイン内のすべてのユーザーとグループに読み取りアクセスを許可する、後方互換のためのグループです
+call.local,Builtin,Incoming Forest Trust Builders,ドメインローカル,セキュリティ,このグループのメンバーは、このフォレストへの入力方向 (一方向) の信頼を作成することができます。
+call.local,Builtin,Windows Authorization Access Group,ドメインローカル,セキュリティ,このグループのメンバーは、User オブジェクトの tokenGroupsGlobalAndUniversal 属性にアクセスがあります。
+call.local,Builtin,Terminal Server License Servers,ドメインローカル,セキュリティ,このグループのメンバーは、TS 接続ユーザー数 CAL の使用状況を追跡および報告することを目的として、Active Directory 内のユーザー アカウントをライセンス発行に関する情報で更新できます。
+call.local,Users,Allowed RODC Password Replication Group,ドメインローカル,セキュリティ,このグループのメンバーは、ドメインのすべての読み取り専用ドメイン コントローラーにパスワードをレプリケートできます。
+call.local,Users,Denied RODC Password Replication Group,ドメインローカル,セキュリティ,このグループのメンバーは、ドメインのどの読み取り専用ドメイン コントローラーにもパスワードをレプリケートできません。
+call.local,Users,Read-only Domain Controllers,グローバル,セキュリティ,このグループのメンバーは、ドメインの読み取り専用ドメイン コントローラーです。
+call.local,Users,Enterprise Read-only Domain Controllers,ユニバーサル,セキュリティ,このグループのメンバーは、エンタープライズの読み取り専用ドメイン コントローラーです。
+call.local,Users,Cloneable Domain Controllers,グローバル,セキュリティ,このグループの、ドメイン コントローラーであるメンバーは、複製されます。
+call.local,Users,Protected Users,グローバル,セキュリティ,このグループのメンバーには、認証セキュリティの脅威に対する追加の保護が提供されます。詳細については、http://go.microsoft.com/fwlink/?LinkId=298939 を参照してください。
+call.local,Users,Key Admins,グローバル,セキュリティ,このグループのメンバーは、ドメイン内のキー オブジェクトに対する管理操作を実行できます。
+call.local,Users,Enterprise Key Admins,ユニバーサル,セキュリティ,このグループのメンバーは、フォレスト内のキー オブジェクトに対する管理操作を実行できます。
+call.local,Users,DnsAdmins,ドメインローカル,セキュリティ,DNS 管理者グループ
+call.local,Users,DnsUpdateProxy,グローバル,セキュリティ,DHCP サーバーなどのほかのクライアントに代わって動的な更新を行うことを許可されている DNS クライアントです。
+call.local,Users,SQLServer2005SQLBrowserUser$SERVER,ドメインローカル,セキュリティ,グループ内のメンバーには、SQL Server Browser の関連付けられたインスタンスのログオン アカウントに必要なアクセス権と特権が割り当てられています。
+call.local,Teachers,Sensei,グローバル,セキュリティ,
+call.local,Students,Seito,グローバル,セキュリティ,
