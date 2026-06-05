@@ -82,6 +82,12 @@ function Bool-ToJp {
     if ($v) { '有効' } else { '無効' }
 }
 
+# null / $null を空文字に変換（?? 演算子の PS5 互換代替）
+function NullStr {
+    param($v)
+    if ($null -ne $v) { [string]$v } else { '' }
+}
+
 function Convert-Profile {
     param($p)
     $items = $p.ToString() -split ',\s*'
@@ -166,10 +172,12 @@ Write-CsvLine $File01 @('システム情報', 'システム', 'ワークグル�
 Write-CsvLine $File01 @('システム情報', 'システム', '役割',                     $role)
 
 # ハードウェア情報
+$hwpName   = if ($hwp) { $hwp.Name } else { '' }
+$hwpSerial = if ($hwp) { $hwp.IdentifyingNumber.Trim() } else { $bios.SerialNumber.Trim() }
 Write-CsvLine $File01 @('機器情報', 'ハードウェア', '機種',         $cs.Model)
 Write-CsvLine $File01 @('機器情報', 'ハードウェア', 'CPU数',        $cs.NumberOfProcessors.ToString())
-Write-CsvLine $File01 @('機器情報', 'ハードウェア', '型番',         if ($hwp) { $hwp.Name } else { '' })
-Write-CsvLine $File01 @('機器情報', 'ハードウェア', 'シリアル番号', if ($hwp) { $hwp.IdentifyingNumber.Trim() } else { $bios.SerialNumber.Trim() })
+Write-CsvLine $File01 @('機器情報', 'ハードウェア', '型番',         $hwpName)
+Write-CsvLine $File01 @('機器情報', 'ハードウェア', 'シリアル番号', $hwpSerial)
 Write-CsvLine $File01 @('機器情報', 'ハードウェア', 'BIOSバージョン', $bios.SMBIOSBIOSVersion)
 Write-CsvLine $File01 @('機器情報', 'ハードウェア', 'CPU',          $cpu.Name.Trim())
 Write-CsvLine $File01 @('機器情報', 'ハードウェア', 'メモリ容量',   "${memGB}GB")
@@ -202,13 +210,16 @@ foreach ($disk in $disks) {
 
     $pIdx = 1
     foreach ($part in (Get-Partition -DiskNumber $disk.Number | Sort-Object PartitionNumber)) {
-        $vol    = Get-Volume -Partition $part -ErrorAction SilentlyContinue
-        $pLabel = "パーティション $pIdx"
+        $vol           = Get-Volume -Partition $part -ErrorAction SilentlyContinue
+        $pLabel        = "パーティション $pIdx"
+        $driveLetter   = if ($part.DriveLetter) { $part.DriveLetter } else { ' ' }
+        $partFs        = if ($vol) { $vol.FileSystem } else { '' }
+        $partVolName   = if ($vol) { $vol.FileSystemLabel } else { '' }
         Write-CsvLine $File01 @("ディスク $($disk.Number)", $pLabel, 'ドライブタイプ',   $part.Type)
-        Write-CsvLine $File01 @("ディスク $($disk.Number)", $pLabel, 'ドライブ文字',     if ($part.DriveLetter) { $part.DriveLetter } else { ' ' })
+        Write-CsvLine $File01 @("ディスク $($disk.Number)", $pLabel, 'ドライブ文字',     $driveLetter)
         Write-CsvLine $File01 @("ディスク $($disk.Number)", $pLabel, '容量',             "$([math]::Round($part.Size / 1GB, 2)) GB")
-        Write-CsvLine $File01 @("ディスク $($disk.Number)", $pLabel, 'ファイルシステム', if ($vol) { $vol.FileSystem } else { '' })
-        Write-CsvLine $File01 @("ディスク $($disk.Number)", $pLabel, 'ボリューム名',     if ($vol) { $vol.FileSystemLabel } else { '' })
+        Write-CsvLine $File01 @("ディスク $($disk.Number)", $pLabel, 'ファイルシステム', $partFs)
+        Write-CsvLine $File01 @("ディスク $($disk.Number)", $pLabel, 'ボリューム名',     $partVolName)
         $pIdx++
     }
 }
@@ -236,15 +247,18 @@ foreach ($a in (Get-NetAdapter | Sort-Object InterfaceIndex)) {
         $subnet = [System.Net.IPAddress]::Parse(([System.Convert]::ToInt64('1' * $prefix + '0' * (32 - $prefix), 2)).ToString()).ToString()
         $gw     = if ($ipCfg.IPv4DefaultGateway) { $ipCfg.IPv4DefaultGateway.NextHop } else { '' }
         $dns    = $ipCfg.DNSServer | Where-Object { $_.AddressFamily -eq 2 } | Select-Object -ExpandProperty ServerAddresses
+        $dns1   = if ($dns -and $dns.Count -ge 1) { $dns[0] } else { '' }
+        $dns2   = if ($dns -and $dns.Count -ge 2) { $dns[1] } else { '' }
         Write-CsvLine $File01 @('ネットワーク', $label, 'DHCP',               $dhcp)
         Write-CsvLine $File01 @('ネットワーク', $label, 'IPv4アドレス',       $ipCfg.IPv4Address.IPAddress)
         Write-CsvLine $File01 @('ネットワーク', $label, 'サブネットマスク',   $subnet)
         Write-CsvLine $File01 @('ネットワーク', $label, 'デフォルトゲートウェイ', $gw)
-        Write-CsvLine $File01 @('ネットワーク', $label, 'DNS 1', if ($dns -and $dns.Count -ge 1) { $dns[0] } else { '' })
-        Write-CsvLine $File01 @('ネットワーク', $label, 'DNS 2', if ($dns -and $dns.Count -ge 2) { $dns[1] } else { '' })
+        Write-CsvLine $File01 @('ネットワーク', $label, 'DNS 1', $dns1)
+        Write-CsvLine $File01 @('ネットワーク', $label, 'DNS 2', $dns2)
     }
     foreach ($b in (Get-NetAdapterBinding -Name $a.Name -ErrorAction SilentlyContinue)) {
-        Write-CsvLine $File01 @('ネットワーク', $label, $b.DisplayName, (if ($b.Enabled) { '有効' } else { '無効' }))
+        $bindEn = if ($b.Enabled) { '有効' } else { '無効' }
+        Write-CsvLine $File01 @('ネットワーク', $label, $b.DisplayName, $bindEn)
     }
     $aNdx++
 }
@@ -276,17 +290,19 @@ $auOption = switch ($wuKey.AUOptions) {
     4 { '自動的にダウンロードしてインストールする' } 5 { '更新をインストールする前に通知する' }
     default { '更新プログラムを確認しない' }
 }
+$wuRecommended = if ($wuKey.IncludeRecommendedUpdates -eq 1) { '有効' } else { '無効' }
 Write-CsvLine $File01 @('コントロールパネル', 'Windows Update', '重要な更新プログラム',   $auOption)
-Write-CsvLine $File01 @('コントロールパネル', 'Windows Update', '推奨する更新プログラム', (if ($wuKey.IncludeRecommendedUpdates -eq 1) { '有効' } else { '無効' }))
+Write-CsvLine $File01 @('コントロールパネル', 'Windows Update', '推奨する更新プログラム', $wuRecommended)
 
 # 時刻設定
-$ntpServer = '-'
-$w32status = & w32tm /query /status 2>$null
+$ntpServer  = '-'
+$w32status  = & w32tm /query /status 2>$null
 if ($w32status) {
     $srcLine = $w32status | Where-Object { $_ -match '時刻ソース|Source' }
     if ($srcLine) { $ntpServer = ($srcLine -split ':', 2)[1].Trim() }
 }
-Write-CsvLine $File01 @('コントロールパネル', '時刻設定', 'NTPタイプ', if ($IsServer) { 'ドメインの階層と同期' } else { 'クライアント' })
+$ntpType = if ($IsServer) { 'ドメインの階層と同期' } else { 'クライアント' }
+Write-CsvLine $File01 @('コントロールパネル', '時刻設定', 'NTPタイプ', $ntpType)
 Write-CsvLine $File01 @('コントロールパネル', '時刻設定', 'NTPサーバ', $ntpServer)
 
 # ファイアウォールプロファイル
@@ -300,8 +316,9 @@ foreach ($p in (Get-NetFirewallProfile -ErrorAction SilentlyContinue)) {
 }
 
 # SNMP
-$snmpSvc = Get-Service -Name SNMP -ErrorAction SilentlyContinue
-Write-CsvLine $File01 @('SNMP', 'SNMP', 'SNMPサービス', if ($snmpSvc) { Bool-ToJp ($snmpSvc.StartType -ne 'Disabled') } else { '無効' })
+$snmpSvc    = Get-Service -Name SNMP -ErrorAction SilentlyContinue
+$snmpStatus = if ($snmpSvc) { Bool-ToJp ($snmpSvc.StartType -ne 'Disabled') } else { '無効' }
+Write-CsvLine $File01 @('SNMP', 'SNMP', 'SNMPサービス', $snmpStatus)
 
 # 管理ユーザー（Administratorアカウント）
 $adminUser = Get-LocalUser -Name Administrator -ErrorAction SilentlyContinue
@@ -359,10 +376,10 @@ $apps = ($regPaths | ForEach-Object {
 
 foreach ($app in $apps) {
     Write-CsvLine $File03 @(
-        ($app.DisplayName    ?? ''),
-        ($app.Publisher      ?? ''),
-        ($app.DisplayVersion ?? ''),
-        ($app.InstallLocation ?? '')
+        (NullStr $app.DisplayName),
+        (NullStr $app.Publisher),
+        (NullStr $app.DisplayVersion),
+        (NullStr $app.InstallLocation)
     )
 }
 Write-Host "  -> $File03"
@@ -385,15 +402,20 @@ foreach ($rule in (Get-NetFirewallRule | Sort-Object Direction, DisplayName)) {
     $direction  = if ($rule.Direction -eq 'Inbound') { '受信' } else { '送信' }
     $action     = if ($rule.Action -eq 'Allow') { '許可' } else { 'ブロック' }
     $program    = if ($af -and $af.Program -and $af.Program -ne 'Any') { $af.Program } else { '任意' }
-    $localIP    = Convert-AnyJp ($addr.LocalAddress  ?? 'Any')
-    $remoteIP   = Convert-AnyJp ($addr.RemoteAddress ?? 'Any')
-    $proto      = Convert-Protocol ($pf.Protocol ?? 'Any')
-    $localPort  = Convert-AnyJp (if ($pf.LocalPort)  { $pf.LocalPort  -join ' ' } else { 'Any' })
-    $remotePort = Convert-AnyJp (if ($pf.RemotePort) { $pf.RemotePort -join ' ' } else { 'Any' })
+    $localAddr  = if ($addr.LocalAddress)  { $addr.LocalAddress }  else { 'Any' }
+    $remoteAddr = if ($addr.RemoteAddress) { $addr.RemoteAddress } else { 'Any' }
+    $proto      = if ($pf.Protocol)  { $pf.Protocol }  else { 'Any' }
+    $lport      = if ($pf.LocalPort)  { $pf.LocalPort  -join ' ' } else { 'Any' }
+    $rport      = if ($pf.RemotePort) { $pf.RemotePort -join ' ' } else { 'Any' }
+    $localIP    = Convert-AnyJp $localAddr
+    $remoteIP   = Convert-AnyJp $remoteAddr
+    $protoStr   = Convert-Protocol $proto
+    $localPort  = Convert-AnyJp $lport
+    $remotePort = Convert-AnyJp $rport
 
     Write-CsvLine $File04 @(
         $rule.DisplayName, $rule.Group, $profile, $enabled, $direction, $action,
-        $program, $localIP, $remoteIP, $localIP, $remoteIP, $proto, $localPort, $remotePort
+        $program, $localIP, $remoteIP, $localIP, $remoteIP, $protoStr, $localPort, $remotePort
     )
 }
 Write-Host "  -> $File04"
@@ -471,7 +493,7 @@ if ($IsServer) {
             $opts = @()
             if ($u.PasswordNeverExpires) { $opts += 'パスワードを無期限にする' }
             if (-not $u.Enabled)         { $opts += 'アカウントを無効にする' }
-            Write-CsvLine $File07 @($u.SamAccountName, ($u.DisplayName ?? ''), ($u.Description ?? ''), ($opts -join '/'))
+            Write-CsvLine $File07 @($u.SamAccountName, (NullStr $u.DisplayName), (NullStr $u.Description), ($opts -join '/'))
         }
     } else {
         # ADモジュール非使用環境ではローカルユーザーを出力
@@ -479,7 +501,7 @@ if ($IsServer) {
             $opts = @()
             if ($u.PasswordNeverExpires) { $opts += 'パスワードを無期限にする' }
             if (-not $u.Enabled)         { $opts += 'アカウントを無効にする' }
-            Write-CsvLine $File07 @($u.Name, ($u.FullName ?? ''), ($u.Description ?? ''), ($opts -join '/'))
+            Write-CsvLine $File07 @($u.Name, (NullStr $u.FullName), (NullStr $u.Description), ($opts -join '/'))
         }
     }
 } else {
@@ -489,7 +511,7 @@ if ($IsServer) {
         if ($u.PasswordNeverExpires)       { $opts += 'パスワードを無期限にする' }
         if (-not $u.UserMayChangePassword) { $opts += 'ユーザーはパスワードを変更できない' }
         if (-not $u.Enabled)               { $opts += 'アカウントを無効にする' }
-        Write-CsvLine $File07 @($u.Name, ($u.FullName ?? ''), ($u.Description ?? ''), ($opts -join '/'))
+        Write-CsvLine $File07 @($u.Name, (NullStr $u.FullName), (NullStr $u.Description), ($opts -join '/'))
     }
 }
 Write-Host "  -> $File07"
@@ -515,13 +537,13 @@ if ($IsServer) {
         foreach ($g in (Get-ADGroup -Filter * -Properties Description | Sort-Object Name)) {
             $members    = Get-ADGroupMember -Identity $g -ErrorAction SilentlyContinue | Select-Object -ExpandProperty SamAccountName
             $membersStr = if ($members) { $members -join ';' } else { '' }
-            Write-CsvLine $File08 @($g.Name, $membersStr, ($g.Description ?? ''))
+            Write-CsvLine $File08 @($g.Name, $membersStr, (NullStr $g.Description))
         }
     } else {
         foreach ($g in (Get-LocalGroup | Sort-Object Name)) {
             $members    = Get-LocalGroupMember -Group $g -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Name
             $membersStr = if ($members) { $members -join ';' } else { '' }
-            Write-CsvLine $File08 @($g.Name, $membersStr, ($g.Description ?? ''))
+            Write-CsvLine $File08 @($g.Name, $membersStr, (NullStr $g.Description))
         }
     }
 } else {
@@ -529,7 +551,7 @@ if ($IsServer) {
     foreach ($g in (Get-LocalGroup | Sort-Object Name)) {
         $members    = Get-LocalGroupMember -Group $g -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Name
         $membersStr = if ($members) { $members -join ';' } else { '' }
-        Write-CsvLine $File08 @($g.Name, $membersStr, ($g.Description ?? ''))
+        Write-CsvLine $File08 @($g.Name, $membersStr, (NullStr $g.Description))
     }
 }
 Write-Host "  -> $File08"
@@ -544,10 +566,10 @@ Write-RawLine $File09 '"DisplayName","StartMode","StartName","Description"'
 
 foreach ($svc in (Get-WmiObject Win32_Service | Sort-Object DisplayName)) {
     Write-CsvLine $File09 @(
-        $svc.DisplayName,
-        $svc.StartMode,
-        ($svc.StartName    ?? ''),
-        ($svc.Description  ?? '')
+        (NullStr $svc.DisplayName),
+        (NullStr $svc.StartMode),
+        (NullStr $svc.StartName),
+        (NullStr $svc.Description)
     )
 }
 Write-Host "  -> $File09"
@@ -561,17 +583,17 @@ New-OutputFile $File10
 Write-RawLine $File10 '名前,ドライバ名,共有名,ポート名,IP,ポート,プロトコル,LPRキュー名,SNMP,コミュニティ,SNMPデバイスインデックス'
 
 foreach ($pr in (Get-Printer -ErrorAction SilentlyContinue | Sort-Object Name)) {
-    $port       = Get-PrinterPort -Name $pr.PortName -ErrorAction SilentlyContinue
-    $ip         = $port.PrinterHostAddress ?? ''
-    $portNum    = if ($port.PortNumber)    { $port.PortNumber.ToString() }    else { '' }
-    $protocol   = if ($port.Protocol -eq 1) { 'RAW' } elseif ($port.Protocol -eq 2) { 'LPR' } else { '' }
-    $lprQueue   = $port.LprQueueName     ?? ''
-    $snmpEn     = if ($port -and $port.PSObject.Properties['SNMPEnabled']) { Bool-ToJp $port.SNMPEnabled } else { '' }
-    $community  = $port.SNMPCommunity    ?? ''
-    $snmpIndex  = if ($port.SNMPDevIndex) { $port.SNMPDevIndex.ToString() } else { '' }
+    $port      = Get-PrinterPort -Name $pr.PortName -ErrorAction SilentlyContinue
+    $ip        = NullStr $port.PrinterHostAddress
+    $portNum   = if ($port -and $port.PortNumber)    { $port.PortNumber.ToString() } else { '' }
+    $protocol  = if ($port -and $port.Protocol -eq 1) { 'RAW' } elseif ($port -and $port.Protocol -eq 2) { 'LPR' } else { '' }
+    $lprQueue  = NullStr $port.LprQueueName
+    $snmpEn    = if ($port -and $port.PSObject.Properties['SNMPEnabled']) { Bool-ToJp $port.SNMPEnabled } else { '' }
+    $community = NullStr $port.SNMPCommunity
+    $snmpIndex = if ($port -and $port.SNMPDevIndex) { $port.SNMPDevIndex.ToString() } else { '' }
 
     Write-CsvLine $File10 @(
-        $pr.Name, $pr.DriverName, ($pr.ShareName ?? ''), $pr.PortName,
+        $pr.Name, $pr.DriverName, (NullStr $pr.ShareName), $pr.PortName,
         $ip, $portNum, $protocol, $lprQueue, $snmpEn, $community, $snmpIndex
     )
 }
