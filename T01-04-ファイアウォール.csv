@@ -1,0 +1,515 @@
+名前,グループ,プロファイル,有効,規則,操作,プログラム,ローカルIP,リモートIP,ローカルアドレス,リモートアドレス,プロトコル,ローカルポート,リモートポート
+BzAgent,,"ドメイン, プライベート, パブリック",有効,受信,許可,C:\Program Files (x86)\Syunkai Product\Agent\BzAgent.exe,任意,任意,任意,任意,任意,任意,任意
+DcRdSvr,,"ドメイン, プライベート, パブリック",有効,受信,許可,C:\Program Files (x86)\Syunkai Product\Agent\DCPRG\DcRdSvr.exe,任意,任意,任意,任意,任意,任意,任意
+DcSkcServe,,"ドメイン, プライベート, パブリック",有効,受信,許可,C:\Program Files (x86)\Syunkai Product\Agent\DCPRG\DcSkcServer.exe,任意,任意,任意,任意,任意,任意,任意
+LoggingManager PC監視ツール,,"すべて",有効,受信,許可,C:\Program Files (x86)\NBDENSHI\ECO\Client\LogClient.exe,任意,任意,任意,任意,任意,任意,任意
+LoggingManager ログ情報閲覧ツール,,"すべて",有効,受信,許可,C:\Program Files (x86)\NBDENSHI\ECO\Manager\LogManager.exe,任意,任意,任意,任意,任意,任意,任意
+Microsoft Lync,,"パブリック",有効,受信,許可,C:\Program Files\Microsoft Office\root\Office16\Lync.exe,任意,任意,任意,任意,UDP,任意,任意
+Microsoft Lync,,"パブリック",有効,受信,許可,C:\Program Files\Microsoft Office\root\Office16\Lync.exe,任意,任意,任意,任意,TCP,任意,任意
+Microsoft Lync UcMapi,,"パブリック",有効,受信,許可,C:\Program Files\Microsoft Office\root\Office16\UcMapi.exe,任意,任意,任意,任意,TCP,任意,任意
+Microsoft Lync UcMapi,,"パブリック",有効,受信,許可,C:\Program Files\Microsoft Office\root\Office16\UcMapi.exe,任意,任意,任意,任意,UDP,任意,任意
+Microsoft Office Outlook,,"パブリック",有効,受信,許可,C:\Program Files\Microsoft Office\root\Office16\outlook.exe,任意,任意,任意,任意,UDP,6004,任意
+NodeJs,,"すべて",有効,受信,許可,C:\Program Files\nodejs\node.exe,任意,任意,任意,任意,任意,任意,任意
+rdViewer,,"ドメイン, プライベート, パブリック",有効,受信,許可,C:\Program Files (x86)\Syunkai Product\Agent\DCPRG\rdViewer.exe,任意,任意,任意,任意,任意,任意,任意
+SRⅣ-コントロール-コントロールソフト,,"すべて",有効,受信,許可,C:\Program Files (x86)\NBDENSHI\SR4\SR.exe,任意,任意,任意,任意,任意,任意,任意
+SRⅣ-コントロール-ファイル送受信ソフト,,"すべて",有効,受信,許可,C:\Program Files (x86)\NBDENSHI\NBFT\NBFT2008.exe,任意,任意,任意,任意,任意,任意,任意
+SRⅣ-コントロール-動画ファイル配信ソフト,,"すべて",有効,受信,許可,C:\Program Files (x86)\NBDENSHI\SR4\MVFT.exe,任意,任意,任意,任意,任意,任意,任意
+SRⅣ-生徒端末-サービス,,"すべて",有効,受信,許可,C:\Program Files (x86)\NBDENSHI\SRT\SRNT3.exe,任意,任意,任意,任意,任意,任意,任意
+SRⅣ-生徒端末-ファイル送受信ソフト,,"すべて",有効,受信,許可,C:\Program Files (x86)\NBDENSHI\NBFT\NBFT2008.exe,任意,任意,任意,任意,任意,任意,任意
+SRⅣ-生徒端末-画像表示ソフト,,"すべて",有効,受信,許可,C:\Program Files (x86)\NBDENSHI\SRT\SRV3.exe,任意,任意,任意,任意,任意,任意,任意
+SRⅣ-生徒端末-端末ソフト,,"すべて",有効,受信,許可,C:\Program Files (x86)\NBDENSHI\SRT\SRT3.exe,任意,任意,任意,任意,任意,任意,任意
+SRⅣ-生徒端末-動画ファイル配信ソフト,,"すべて",有効,受信,許可,C:\Program Files (x86)\NBDENSHI\SRT\MVFT.exe,任意,任意,任意,任意,任意,任意,任意
+Trend Micro Apex One Listener,,"すべて",有効,受信,許可,任意,任意,任意,任意,任意,TCP,21112,任意
+レポート管理アプリ,,"すべて",有効,受信,許可,C:\Program Files (x86)\NBDENSHI\ReportApp\ReportManageApp\ReportManageApp.exe,任意,任意,任意,任意,任意,任意,任意
+レポート提出アプリ,,"すべて",有効,受信,許可,C:\Program Files (x86)\NBDENSHI\ReportApp\ReportSubmitApp\ReportSubmitApp.exe,任意,任意,任意,任意,任意,任意,任意
+読取革命V17,,"プライベート, パブリック",有効,受信,許可,C:\Program Files (x86)\SOURCENEXT\YomikakuV17\Yomikaku.exe,任意,任意,任意,任意,任意,任意,任意
+@{Microsoft.StorePurchaseApp_22312.1400.6.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.StorePurchaseApp/Resources/DisplayTitle},@{Microsoft.StorePurchaseApp_22312.1400.6.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.StorePurchaseApp/Resources/DisplayTitle},"ドメイン, プライベート",有効,受信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+@{Microsoft.WindowsFeedbackHub_1.2401.20253.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsFeedbackHub/Resources/AppStoreName},@{Microsoft.WindowsFeedbackHub_1.2401.20253.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsFeedbackHub/Resources/AppStoreName},"ドメイン, プライベート",有効,受信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+@{Microsoft.XboxGamingOverlay_2.624.1111.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.XboxGamingOverlay/resources/GameBar},@{Microsoft.XboxGamingOverlay_2.624.1111.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.XboxGamingOverlay/resources/GameBar},"ドメイン, プライベート, パブリック",有効,受信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+@{Microsoft.ZuneMusic_11.2312.8.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.ZuneMusic/Resources/AppStoreName},@{Microsoft.ZuneMusic_11.2312.8.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.ZuneMusic/Resources/AppStoreName},"ドメイン, プライベート",有効,受信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+Microsoft Teams,{78E1CD88-49E3-476E-B926-580E596AD309},"すべて",有効,受信,許可,C:\Program Files\WindowsApps\MSTeams_26032.208.4399.5_x64__8wekyb3d8bbwe\ms-teams.exe,任意,任意,任意,任意,TCP,任意,任意
+Microsoft Teams,{78E1CD88-49E3-476E-B926-580E596AD309},"すべて",有効,受信,許可,C:\Program Files\WindowsApps\MSTeams_26032.208.4399.5_x64__8wekyb3d8bbwe\ms-teams.exe,任意,任意,任意,任意,UDP,任意,任意
+Microsoft Teams,{78E1CD88-49E3-476E-B926-580E596AD309},"すべて",有効,受信,許可,C:\Program Files\WindowsApps\MSTeams_26032.208.4399.5_x64__8wekyb3d8bbwe\ms-teams.exe,任意,任意,任意,任意,UDP,任意,任意
+Microsoft Teams,{78E1CD88-49E3-476E-B926-580E596AD309},"すべて",有効,受信,許可,C:\Program Files\WindowsApps\MSTeams_26032.208.4399.5_x64__8wekyb3d8bbwe\ms-teams.exe,任意,任意,任意,任意,TCP,任意,任意
+ms-resource:ProductPkgDisplayName,{78E1CD88-49E3-476E-B926-580E596AD309},"プライベート",有効,受信,許可,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\WindowsBackupClient.exe,任意,任意,任意,任意,UDP,7000,任意
+ms-resource:ProductPkgDisplayName,{78E1CD88-49E3-476E-B926-580E596AD309},"プライベート",有効,受信,許可,C:\Windows\SystemApps\MicrosoftWindows.Client.OOBE_cw5n1h2txyewy\OobeHostApp.exe,任意,任意,任意,任意,TCP,7000,任意
+ms-resource:ProductPkgDisplayName,{78E1CD88-49E3-476E-B926-580E596AD309},"パブリック",有効,受信,許可,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\WindowsBackupClient.exe,任意,任意,任意,任意,UDP,7000,任意
+ms-resource:ProductPkgDisplayName,{78E1CD88-49E3-476E-B926-580E596AD309},"パブリック",有効,受信,許可,C:\Windows\SystemApps\MicrosoftWindows.Client.OOBE_cw5n1h2txyewy\OobeHostApp.exe,任意,任意,任意,任意,UDP,7000,任意
+ms-resource:ProductPkgDisplayName,{78E1CD88-49E3-476E-B926-580E596AD309},"パブリック",有効,受信,許可,C:\Windows\SystemApps\MicrosoftWindows.Client.OOBE_cw5n1h2txyewy\OobeHostApp.exe,任意,任意,任意,任意,TCP,7000,任意
+ms-resource:ProductPkgDisplayName,{78E1CD88-49E3-476E-B926-580E596AD309},"プライベート",有効,受信,許可,C:\Windows\SystemApps\MicrosoftWindows.Client.OOBE_cw5n1h2txyewy\OobeHostApp.exe,任意,任意,任意,任意,UDP,7000,任意
+ms-resource:ProductPkgDisplayName,{78E1CD88-49E3-476E-B926-580E596AD309},"プライベート",有効,受信,許可,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\WindowsBackupClient.exe,任意,任意,任意,任意,TCP,7000,任意
+ms-resource:ProductPkgDisplayName,{78E1CD88-49E3-476E-B926-580E596AD309},"パブリック",有効,受信,許可,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\WindowsBackupClient.exe,任意,任意,任意,任意,TCP,7000,任意
+AllJoyn ルーター (TCP 受信),AllJoyn ルーター,"ドメイン, プライベート",有効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,9955,任意
+AllJoyn ルーター (UDP 受信),AllJoyn ルーター,"ドメイン, プライベート",有効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,UDP,任意,任意
+App Installer,App Installer,"ドメイン, プライベート",有効,受信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+BranchCache コンテンツ取得 (HTTP-受信),BranchCache - コンテンツ取得 (HTTP を使用),"すべて",無効,受信,許可,SYSTEM,任意,任意,任意,任意,TCP,80,任意
+BranchCache ピア検出 (WSD-受信),BranchCache - ピア検出 (WSD を使用),"すべて",無効,受信,許可,%systemroot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,3702,任意
+BranchCache ホスト型キャッシュ サーバー (HTTP-受信),BranchCache - ホスト型キャッシュ サーバー (HTTPS を使用),"すべて",無効,受信,許可,SYSTEM,任意,任意,任意,任意,TCP,80 443,任意
+Connected Devices Platform - Wi-Fi Direct トランスポート (TCP 受信),Connected Devices Platform,"パブリック",有効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,任意,任意
+Connected Devices Platform (TCP 受信),Connected Devices Platform,"ドメイン, プライベート",有効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,任意,任意
+Connected Devices Platform (UDP 受信),Connected Devices Platform,"ドメイン, プライベート",有効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,UDP,任意,任意
+Delivery Optimization (TCP-In),Delivery Optimization,"すべて",有効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,7680,任意
+Delivery Optimization (UDP-In),Delivery Optimization,"すべて",有効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,UDP,7680,任意
+DIAL プロトコル サーバー (HTTP 受信),DIAL プロトコル サーバー,"プライベート",有効,受信,許可,System,任意,ローカルサブネット,任意,ローカルサブネット,TCP,10247,任意
+DIAL プロトコル サーバー (HTTP 受信),DIAL プロトコル サーバー,"ドメイン",有効,受信,許可,System,任意,任意,任意,任意,TCP,10247,任意
+Google Chrome（mDNS インバウンド）,Google Chrome,"すべて",有効,受信,許可,C:\Program Files\Google\Chrome\Application\chrome.exe,任意,任意,任意,任意,UDP,5353,任意
+iSCSI サービス (TCP 受信),iSCSI サービス,"ドメイン",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,任意,任意
+iSCSI サービス (TCP 受信),iSCSI サービス,"プライベート, パブリック",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,任意,任意
+mDNS (UDP 受信),mDNS,"ドメイン",有効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,UDP,5353,任意
+mDNS (UDP 受信),mDNS,"プライベート",有効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,5353,任意
+mDNS (UDP 受信),mDNS,"パブリック",有効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,5353,任意
+Media Center Extender - HTTP ストリーミング (TCP-In),Media Center Extender,"すべて",無効,受信,許可,System,任意,ローカルサブネット,任意,ローカルサブネット,TCP,10244,任意
+Media Center Extender - qWave (TCP 受信),Media Center Extender,"すべて",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,2177,任意
+Media Center Extender - qWave (UDP 受信),Media Center Extender,"すべて",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,2177,任意
+Media Center Extender - RTSP (TCP 受信),Media Center Extender,"すべて",無効,受信,許可,%SystemRoot%\ehome\ehshell.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,554 8554 8555 8556 8557 8558,任意
+Media Center Extender - SSDP (UDP 受信),Media Center Extender,"すべて",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,1900,任意
+Media Center Extender - WMDRM-ND/RTP/RTCP (UDP 受信),Media Center Extender,"すべて",無効,受信,許可,%SystemRoot%\ehome\ehshell.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,7777 7778 7779 7780 7781 5004 5005 50004 50005 50006 50007 50008 50009 50010 50011 50012 50013,任意
+Media Center Extender - XSP (TCP 受信),Media Center Extender,"すべて",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,3390,任意
+Media Center Extenders - Media ストリーミング (TCP-In),Media Center Extender,"すべて",無効,受信,許可,System,任意,ローカルサブネット,任意,ローカルサブネット,TCP,2869,任意
+Microsoft Edge (mDNS-In),Microsoft Edge,"すべて",有効,受信,許可,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,任意,任意,任意,任意,UDP,5353,任意
+Microsoft Edge (mDNS-In),Microsoft Edge WebView2 Runtime,"すべて",有効,受信,許可,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\147.0.3912.86\msedgewebview2.exe,任意,任意,任意,任意,UDP,5353,任意
+Microsoft Edge (mDNS-In),Microsoft Edge WebView2 Runtime,"すべて",有効,受信,許可,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\147.0.3912.98\msedgewebview2.exe,任意,任意,任意,任意,UDP,5353,任意
+Microsoft Teams,Microsoft Teams,"ドメイン, プライベート, パブリック",有効,受信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+Microsoft To Do,Microsoft To Do,"ドメイン, プライベート",有効,受信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+Microsoft メディア ファンデーション ネットワーク ソース受信 [TCP 554],Microsoft メディア ファンデーション ネットワーク ソース,"すべて",有効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,554 8554-8558,任意
+Microsoft メディア ファンデーション ネットワーク ソース受信 [UDP 5004-5009],Microsoft メディア ファンデーション ネットワーク ソース,"すべて",有効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,5000-5020,任意
+Netlogon サービス (NP 受信),Netlogon サービス,"すべて",無効,受信,許可,System,任意,任意,任意,任意,TCP,445,任意
+Netlogon サービス Authz (RPC),Netlogon サービス,"すべて",無効,受信,許可,%SystemRoot%\System32\lsass.exe,任意,任意,任意,任意,TCP,RPC,任意
+Secure Socket トンネリング プロトコル (SSTP 受信),Secure Socket トンネリング プロトコル,"すべて",無効,受信,許可,System,任意,任意,任意,任意,TCP,443,任意
+SMBDirect でのファイルとプリンターの共有 (iWARP 受信),SMBDirect でのファイルとプリンターの共有,"すべて",無効,受信,許可,System,任意,任意,任意,任意,TCP,5445,任意
+SNMP トラップ サービス (UDP 受信),SNMP トラップ,"ドメイン",無効,受信,許可,%SystemRoot%\system32\snmptrap.exe,任意,任意,任意,任意,UDP,162,任意
+SNMP トラップ サービス (UDP 受信),SNMP トラップ,"プライベート, パブリック",無効,受信,許可,%SystemRoot%\system32\snmptrap.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,162,任意
+TPM 仮想スマートカード管理 (DCOM 受信),TPM 仮想スマートカード管理,"プライベート, パブリック",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,135,任意
+TPM 仮想スマートカード管理 (DCOM 受信),TPM 仮想スマートカード管理,"ドメイン",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,135,任意
+TPM 仮想スマートカード管理 (TCP 受信),TPM 仮想スマートカード管理,"ドメイン",無効,受信,許可,%SystemRoot%\system32\RmtTpmVscMgrSvr.exe,任意,任意,任意,任意,TCP,任意,任意
+TPM 仮想スマートカード管理 (TCP 受信),TPM 仮想スマートカード管理,"プライベート, パブリック",無効,受信,許可,%SystemRoot%\system32\RmtTpmVscMgrSvr.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,任意,任意
+Wi-Fi Direct スキャン サービスの使用 (受信),Wi-Fi Direct ネットワーク探索,"パブリック",有効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,任意,任意,任意
+Wi-Fi Direct スプーラーの使用 (受信),Wi-Fi Direct ネットワーク探索,"パブリック",有効,受信,許可,%SystemRoot%\system32\spoolsv.exe,任意,任意,任意,任意,任意,任意,任意
+Wi-Fi Direct ネットワーク探索 (受信),Wi-Fi Direct ネットワーク探索,"パブリック",有効,受信,許可,%SystemRoot%\system32\dashost.exe,任意,任意,任意,任意,任意,任意,任意
+Windows Defender ファイアウォール リモート管理 (RPC),Windows Defender ファイアウォール リモート管理,"ドメイン",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,RPC,任意
+Windows Defender ファイアウォール リモート管理 (RPC),Windows Defender ファイアウォール リモート管理,"プライベート, パブリック",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,RPC,任意
+Windows Defender ファイアウォール リモート管理 (RPC-EPMAP),Windows Defender ファイアウォール リモート管理,"プライベート, パブリック",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,RPCEPMap,任意
+Windows Defender ファイアウォール リモート管理 (RPC-EPMAP),Windows Defender ファイアウォール リモート管理,"ドメイン",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,RPCEPMap,任意
+Windows Management Instrumentation (DCOM 受信),Windows Management Instrumentation (WMI),"ドメイン",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,135,任意
+Windows Management Instrumentation (DCOM 受信),Windows Management Instrumentation (WMI),"プライベート, パブリック",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,135,任意
+Windows Management Instrumentation (WMI 受信),Windows Management Instrumentation (WMI),"ドメイン",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,任意,任意
+Windows Management Instrumentation (WMI 受信),Windows Management Instrumentation (WMI),"プライベート, パブリック",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,任意,任意
+Windows Management Instrumentation (非同期受信),Windows Management Instrumentation (WMI),"プライベート, パブリック",無効,受信,許可,%systemroot%\system32\wbem\unsecapp.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,任意,任意
+Windows Management Instrumentation (非同期受信),Windows Management Instrumentation (WMI),"ドメイン",無効,受信,許可,%systemroot%\system32\wbem\unsecapp.exe,任意,任意,任意,任意,TCP,任意,任意
+Windows Media Player (UDP 受信),Windows Media Player,"すべて",無効,受信,許可,%ProgramFiles%\Windows Media Player\wmplayer.exe,任意,任意,任意,任意,UDP,任意,任意
+Windows Media Player x86 (UDP 受信),Windows Media Player,"すべて",無効,受信,許可,%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe,任意,任意,任意,任意,UDP,任意,任意
+Windows Media Player ネットワーク共有サービス (HTTP ストリーミング受信),Windows Media Player ネットワーク共有サービス,"ドメイン",無効,受信,許可,System,任意,任意,任意,任意,TCP,10243,任意
+Windows Media Player ネットワーク共有サービス (HTTP ストリーミング受信),Windows Media Player ネットワーク共有サービス,"プライベート, パブリック",無効,受信,許可,System,任意,ローカルサブネット,任意,ローカルサブネット,TCP,10243,任意
+Windows Media Player ネットワーク共有サービス (qWave TCP 受信),Windows Media Player ネットワーク共有サービス,"プライベート, パブリック",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,2177,任意
+Windows Media Player ネットワーク共有サービス (qWave TCP 受信),Windows Media Player ネットワーク共有サービス,"ドメイン",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,2177,任意
+Windows Media Player ネットワーク共有サービス (qWave UDP 受信),Windows Media Player ネットワーク共有サービス,"ドメイン",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,UDP,2177,任意
+Windows Media Player ネットワーク共有サービス (qWave UDP 受信),Windows Media Player ネットワーク共有サービス,"プライベート, パブリック",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,2177,任意
+Windows Media Player ネットワーク共有サービス (SSDP 受信),Windows Media Player ネットワーク共有サービス,"すべて",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,1900,任意
+Windows Media Player ネットワーク共有サービス (TCP 受信),Windows Media Player ネットワーク共有サービス,"ドメイン",無効,受信,許可,%PROGRAMFILES%\Windows Media Player\wmpnetwk.exe,任意,任意,任意,任意,TCP,任意,任意
+Windows Media Player ネットワーク共有サービス (TCP 受信),Windows Media Player ネットワーク共有サービス,"プライベート, パブリック",無効,受信,許可,%PROGRAMFILES%\Windows Media Player\wmpnetwk.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,任意,任意
+Windows Media Player ネットワーク共有サービス (UDP 受信),Windows Media Player ネットワーク共有サービス,"プライベート, パブリック",無効,受信,許可,%PROGRAMFILES%\Windows Media Player\wmpnetwk.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,任意,任意
+Windows Media Player ネットワーク共有サービス (UDP 受信),Windows Media Player ネットワーク共有サービス,"ドメイン",無効,受信,許可,%PROGRAMFILES%\Windows Media Player\wmpnetwk.exe,任意,任意,任意,任意,UDP,任意,任意
+Windows Media Player ネットワーク共有サービス (UPnP 受信),Windows Media Player ネットワーク共有サービス,"すべて",無効,受信,許可,System,任意,ローカルサブネット,任意,ローカルサブネット,TCP,2869,任意
+Windows Media Player ネットワーク共有サービス (ストリーミング UDP 受信),Windows Media Player ネットワーク共有サービス,"ドメイン",無効,受信,許可,%PROGRAMFILES%\Windows Media Player\wmplayer.exe,任意,任意,任意,任意,UDP,任意,任意
+Windows Media Player ネットワーク共有サービス (ストリーミング UDP 受信),Windows Media Player ネットワーク共有サービス,"プライベート, パブリック",無効,受信,許可,%PROGRAMFILES%\Windows Media Player\wmplayer.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,任意,任意
+Windows グループ作業ツール コンピューター名の登録サービス (PNRP 受信),Windows グループ作業ツール コンピューター名の登録サービス,"すべて",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,UDP,3540,任意
+Windows グループ作業ツール コンピューター名の登録サービス (SSDP 受信),Windows グループ作業ツール コンピューター名の登録サービス,"すべて",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,1900,任意
+Windows シェル エクスペリエンス,Windows シェル エクスペリエンス,"ドメイン, プライベート",有効,受信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+Windows セキュリティ,Windows セキュリティ,"ドメイン, プライベート",有効,受信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+Windows ピア ツー ピア共同作業ファンデーション (PNRP 受信),Windows ピア ツー ピア共同作業ファンデーション,"すべて",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,UDP,3540,任意
+Windows ピア ツー ピア共同作業ファンデーション (SSDP 受信),Windows ピア ツー ピア共同作業ファンデーション,"すべて",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,1900,任意
+Windows ピア ツー ピア共同作業ファンデーション (TCP 受信),Windows ピア ツー ピア共同作業ファンデーション,"すべて",無効,受信,許可,%SystemRoot%\system32\p2phost.exe,任意,任意,任意,任意,TCP,任意,任意
+Windows ピア ツー ピア共同作業ファンデーション (WSD 受信),Windows ピア ツー ピア共同作業ファンデーション,"すべて",無効,受信,許可,%SystemRoot%\system32\p2phost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,3702,任意
+Windows リモート管理 (HTTP 受信),Windows リモート管理,"ドメイン, プライベート",無効,受信,許可,System,任意,任意,任意,任意,TCP,5985,任意
+Windows リモート管理 (HTTP 受信),Windows リモート管理,"パブリック",無効,受信,許可,System,任意,ローカルサブネット,任意,ローカルサブネット,TCP,5985,任意
+Windows リモート管理 - 互換モード (HTTP-In),Windows リモート管理 (互換性),"ドメイン",無効,受信,許可,System,任意,任意,任意,任意,TCP,80,任意
+Windows リモート管理 - 互換モード (HTTP-In),Windows リモート管理 (互換性),"プライベート, パブリック",無効,受信,許可,System,任意,ローカルサブネット,任意,ローカルサブネット,TCP,80,任意
+Windows 機能エクスペリエンス パック,Windows 機能エクスペリエンス パック,"ドメイン, プライベート",有効,受信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+Windows 機能エクスペリエンス パック,Windows 機能エクスペリエンス パック,"ドメイン, プライベート, パブリック",有効,受信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+Windows 機能エクスペリエンス パック,Windows 機能エクスペリエンス パック,"ドメイン, プライベート",有効,受信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+Windows 機能エクスペリエンス パック,Windows 機能エクスペリエンス パック,"ドメイン, プライベート, パブリック",有効,受信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+WFD ASP Coordination Protocol (UDP 受信),WLAN サービス - WFD Application Services Platform Coordination Protocol (UDP 使用),"すべて",有効,受信,許可,%systemroot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,7235,7235
+WFD ドライバーのみ (TCP 受信),WLAN サービス - WFD サービス カーネル モード ドライバー規則,"すべて",有効,受信,許可,System,任意,任意,任意,任意,TCP,任意,任意
+WFD ドライバーのみ (UDP 受信),WLAN サービス - WFD サービス カーネル モード ドライバー規則,"すべて",有効,受信,許可,System,任意,任意,任意,任意,UDP,任意,任意
+アカウント,アカウント,"ドメイン, プライベート",有効,受信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+キー管理サービス (TCP 受信),キー管理サービス,"ドメイン",無効,受信,許可,%SystemRoot%\system32\sppextcomobj.exe,任意,任意,任意,任意,TCP,1688,任意
+キー管理サービス (TCP 受信),キー管理サービス,"プライベート, パブリック",無効,受信,許可,%SystemRoot%\system32\sppextcomobj.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,1688,任意
+コア ネットワーク - IPHTTPS (TCP-受信),コア ネットワーク,"すべて",有効,受信,許可,System,任意,任意,任意,任意,TCP,IPHTTPSIn,任意
+コア ネットワーク - IPv6 (IPv6 受信),コア ネットワーク,"すべて",有効,受信,許可,System,任意,任意,任意,任意,41,任意,任意
+コア ネットワーク - IPv6 用動的ホスト構成プロトコル (DHCPV6-受信),コア ネットワーク,"すべて",有効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,UDP,546,547
+コア ネットワーク - Teredo (UDP 受信),コア ネットワーク,"すべて",有効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,UDP,Teredo,任意
+コア ネットワーク - インターネット グループ管理プロトコル (IGMP 受信),コア ネットワーク,"すべて",有効,受信,許可,System,任意,任意,任意,任意,2,任意,任意
+コア ネットワーク - パケットが大きすぎます (ICMPv6 受信),コア ネットワーク,"すべて",有効,受信,許可,System,任意,任意,任意,任意,ICMPv6,RPC,任意
+コア ネットワーク - パラメーターの問題 (ICMPv6 受信),コア ネットワーク,"すべて",有効,受信,許可,System,任意,任意,任意,任意,ICMPv6,RPC,任意
+コア ネットワーク - マルチキャスト リスナー クエリ (ICMPv6 受信),コア ネットワーク,"すべて",有効,受信,許可,System,任意,ローカルサブネット6,任意,ローカルサブネット6,ICMPv6,RPC,任意
+コア ネットワーク - マルチキャスト リスナー レポート (ICMPv6 受信),コア ネットワーク,"すべて",有効,受信,許可,System,任意,ローカルサブネット6,任意,ローカルサブネット6,ICMPv6,RPC,任意
+コア ネットワーク - マルチキャスト リスナー レポート v2 (ICMPv6 受信),コア ネットワーク,"すべて",有効,受信,許可,System,任意,ローカルサブネット6,任意,ローカルサブネット6,ICMPv6,RPC,任意
+コア ネットワーク - マルチキャスト リスナー完了 (ICMPv6 受信),コア ネットワーク,"すべて",有効,受信,許可,System,任意,ローカルサブネット6,任意,ローカルサブネット6,ICMPv6,RPC,任意
+コア ネットワーク - ルーター アドバタイズ (ICMPv6 受信),コア ネットワーク,"すべて",有効,受信,許可,System,任意,fe80::/64,任意,fe80::/64,ICMPv6,RPC,任意
+コア ネットワーク - ルーター要請 (ICMPv6-受信),コア ネットワーク,"すべて",有効,受信,許可,System,任意,任意,任意,任意,ICMPv6,RPC,任意
+コア ネットワーク - 近隣探索アドバタイズ (ICMPv6 受信),コア ネットワーク,"すべて",有効,受信,許可,System,任意,任意,任意,任意,ICMPv6,RPC,任意
+コア ネットワーク - 近隣探索要請 (ICMPv6 受信),コア ネットワーク,"すべて",有効,受信,許可,System,任意,任意,任意,任意,ICMPv6,RPC,任意
+コア ネットワーク - 時間超過 (ICMPv6 受信),コア ネットワーク,"すべて",有効,受信,許可,System,任意,任意,任意,任意,ICMPv6,RPC,任意
+コア ネットワーク - 到達不可能な宛先 - 断片化が必要 (ICMPv4 受信),コア ネットワーク,"すべて",有効,受信,許可,System,任意,任意,任意,任意,ICMPv4,RPC,任意
+コア ネットワーク - 到達不可能な宛先 (ICMPv6 受信),コア ネットワーク,"すべて",有効,受信,許可,System,任意,任意,任意,任意,ICMPv6,RPC,任意
+コア ネットワーク - 動的ホスト構成プロトコル (DHCP 受信),コア ネットワーク,"すべて",有効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,UDP,68,67
+コア ネットワーク診断 - ICMP エコー要求 (ICMPv4 受信),コア ネットワーク診断,"ドメイン",無効,受信,許可,System,任意,任意,任意,任意,ICMPv4,RPC,任意
+コア ネットワーク診断 - ICMP エコー要求 (ICMPv4 受信),コア ネットワーク診断,"プライベート, パブリック",無効,受信,許可,System,任意,ローカルサブネット4,任意,ローカルサブネット4,ICMPv4,RPC,任意
+コア ネットワーク診断 - ICMP エコー要求 (ICMPv6 受信),コア ネットワーク診断,"ドメイン",無効,受信,許可,System,任意,任意,任意,任意,ICMPv6,RPC,任意
+コア ネットワーク診断 - ICMP エコー要求 (ICMPv6 受信),コア ネットワーク診断,"プライベート, パブリック",無効,受信,許可,System,任意,ローカルサブネット6,任意,ローカルサブネット6,ICMPv6,RPC,任意
+スケジュールされたリモート タスク管理 (RPC),スケジュールされたリモート タスク管理,"ドメイン",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,RPC,任意
+スケジュールされたリモート タスク管理 (RPC),スケジュールされたリモート タスク管理,"プライベート, パブリック",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,RPC,任意
+スケジュールされたリモート タスク管理 (RPC-EPMAP),スケジュールされたリモート タスク管理,"プライベート, パブリック",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,RPCEPMap,任意
+スケジュールされたリモート タスク管理 (RPC-EPMAP),スケジュールされたリモート タスク管理,"ドメイン",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,RPCEPMap,任意
+スタート,スタート,"ドメイン, プライベート",有効,受信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+デスクトップ アプリ Web ビューアー,デスクトップ アプリ Web ビューアー,"ドメイン, プライベート, パブリック",有効,受信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+デバイス キャスト SSDP 探索 (UDP 受信),デバイス キャスト機能,"パブリック",有効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,UDP,PlayToDiscovery,任意
+デバイス キャスト UPnP イベント (TCP 受信),デバイス キャスト機能,"パブリック",有効,受信,許可,System,任意,PlayToDevice,任意,PlayToDevice,TCP,2869,任意
+デバイス キャスト ストリーミング サーバー (HTTP ストリーミング受信),デバイス キャスト機能,"プライベート",有効,受信,許可,System,任意,ローカルサブネット,任意,ローカルサブネット,TCP,10246,任意
+デバイス キャスト ストリーミング サーバー (HTTP ストリーミング受信),デバイス キャスト機能,"ドメイン",有効,受信,許可,System,任意,任意,任意,任意,TCP,10246,任意
+デバイス キャスト ストリーミング サーバー (HTTP ストリーミング受信),デバイス キャスト機能,"パブリック",有効,受信,許可,System,任意,PlayToDevice,任意,PlayToDevice,TCP,10246,任意
+デバイス キャスト ストリーミング サーバー (RTCP ストリーミング受信),デバイス キャスト機能,"ドメイン",有効,受信,許可,%SystemRoot%\system32\mdeserver.exe,任意,任意,任意,任意,UDP,任意,任意
+デバイス キャスト ストリーミング サーバー (RTCP ストリーミング受信),デバイス キャスト機能,"パブリック",有効,受信,許可,%SystemRoot%\system32\mdeserver.exe,任意,PlayToDevice,任意,PlayToDevice,UDP,任意,任意
+デバイス キャスト ストリーミング サーバー (RTCP ストリーミング受信),デバイス キャスト機能,"プライベート",有効,受信,許可,%SystemRoot%\system32\mdeserver.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,任意,任意
+デバイス キャスト ストリーミング サーバー (RTSP ストリーミング受信),デバイス キャスト機能,"パブリック",有効,受信,許可,%SystemRoot%\system32\mdeserver.exe,任意,PlayToDevice,任意,PlayToDevice,TCP,23554 23555 23556,任意
+デバイス キャスト ストリーミング サーバー (RTSP ストリーミング受信),デバイス キャスト機能,"ドメイン",有効,受信,許可,%SystemRoot%\system32\mdeserver.exe,任意,任意,任意,任意,TCP,23554 23555 23556,任意
+デバイス キャスト ストリーミング サーバー (RTSP ストリーミング受信),デバイス キャスト機能,"プライベート",有効,受信,許可,%SystemRoot%\system32\mdeserver.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,23554 23555 23556,任意
+デバイス キャスト機能 (qWave TCP 受信),デバイス キャスト機能,"プライベート, パブリック",有効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,PlayToDevice,任意,PlayToDevice,TCP,2177,任意
+デバイス キャスト機能 (qWave UDP 受信),デバイス キャスト機能,"プライベート, パブリック",有効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,PlayToDevice,任意,PlayToDevice,UDP,2177,任意
+Teredo のネットワーク探索 (SSDP 受信),ネットワーク探索,"パブリック",有効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,UDP,任意,任意
+Teredo のネットワーク探索 (UPnP 受信),ネットワーク探索,"パブリック",有効,受信,許可,System,任意,任意,任意,任意,TCP,任意,任意
+ネットワーク探索 (LLMNR UDP 受信),ネットワーク探索,"ドメイン, パブリック",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,5355,任意
+ネットワーク探索 (LLMNR UDP 受信),ネットワーク探索,"プライベート",有効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,5355,任意
+ネットワーク探索 (NB データグラム受信),ネットワーク探索,"ドメイン",無効,受信,許可,System,任意,任意,任意,任意,UDP,138,任意
+ネットワーク探索 (NB データグラム受信),ネットワーク探索,"プライベート",有効,受信,許可,System,任意,ローカルサブネット,任意,ローカルサブネット,UDP,138,任意
+ネットワーク探索 (NB データグラム受信),ネットワーク探索,"パブリック",無効,受信,許可,System,任意,ローカルサブネット,任意,ローカルサブネット,UDP,138,任意
+ネットワーク探索 (NB 名受信),ネットワーク探索,"ドメイン",無効,受信,許可,System,任意,任意,任意,任意,UDP,137,任意
+ネットワーク探索 (NB 名受信),ネットワーク探索,"プライベート",有効,受信,許可,System,任意,ローカルサブネット,任意,ローカルサブネット,UDP,137,任意
+ネットワーク探索 (NB 名受信),ネットワーク探索,"パブリック",無効,受信,許可,System,任意,ローカルサブネット,任意,ローカルサブネット,UDP,137,任意
+ネットワーク探索 (Pub WSD 受信),ネットワーク探索,"プライベート",有効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,3702,任意
+ネットワーク探索 (Pub WSD 受信),ネットワーク探索,"ドメイン, パブリック",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,3702,任意
+ネットワーク探索 (SSDP 受信),ネットワーク探索,"ドメイン, パブリック",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,1900,任意
+ネットワーク探索 (SSDP 受信),ネットワーク探索,"プライベート",有効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,1900,任意
+ネットワーク探索 (UPnP 受信),ネットワーク探索,"ドメイン",無効,受信,許可,System,任意,任意,任意,任意,TCP,2869,任意
+ネットワーク探索 (UPnP 受信),ネットワーク探索,"プライベート",有効,受信,許可,System,任意,ローカルサブネット,任意,ローカルサブネット,TCP,2869,任意
+ネットワーク探索 (UPnP 受信),ネットワーク探索,"パブリック",無効,受信,許可,System,任意,ローカルサブネット,任意,ローカルサブネット,TCP,2869,任意
+ネットワーク探索 (WSD EventsSecure 受信),ネットワーク探索,"プライベート",有効,受信,許可,System,任意,ローカルサブネット,任意,ローカルサブネット,TCP,5358,任意
+ネットワーク探索 (WSD EventsSecure 受信),ネットワーク探索,"ドメイン",無効,受信,許可,System,任意,任意,任意,任意,TCP,5358,任意
+ネットワーク探索 (WSD EventsSecure 受信),ネットワーク探索,"パブリック",無効,受信,許可,System,任意,ローカルサブネット,任意,ローカルサブネット,TCP,5358,任意
+ネットワーク探索 (WSD イベント受信),ネットワーク探索,"パブリック",無効,受信,許可,System,任意,ローカルサブネット,任意,ローカルサブネット,TCP,5357,任意
+ネットワーク探索 (WSD イベント受信),ネットワーク探索,"プライベート",有効,受信,許可,System,任意,ローカルサブネット,任意,ローカルサブネット,TCP,5357,任意
+ネットワーク探索 (WSD イベント受信),ネットワーク探索,"ドメイン",無効,受信,許可,System,任意,任意,任意,任意,TCP,5357,任意
+ネットワーク探索 (WSD 受信),ネットワーク探索,"ドメイン, パブリック",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,3702,任意
+ネットワーク探索 (WSD 受信),ネットワーク探索,"プライベート",有効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,3702,任意
+ネットワーク探索 (WSD 受信),ネットワーク探索,"ドメイン, パブリック",無効,受信,許可,%SystemRoot%\system32\dashost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,3702,任意
+ネットワーク探索 (WSD 受信),ネットワーク探索,"プライベート",有効,受信,許可,%SystemRoot%\system32\dashost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,3702,任意
+パフォーマンス ログと警告 (DCOM 受信),パフォーマンス ログと警告,"プライベート, パブリック",無効,受信,許可,%systemroot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,135,任意
+パフォーマンス ログと警告 (DCOM 受信),パフォーマンス ログと警告,"ドメイン",無効,受信,許可,%systemroot%\system32\svchost.exe,任意,任意,任意,任意,TCP,135,任意
+パフォーマンス ログと警告 (TCP 受信),パフォーマンス ログと警告,"プライベート, パブリック",無効,受信,許可,%systemroot%\system32\plasrv.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,任意,任意
+パフォーマンス ログと警告 (TCP 受信),パフォーマンス ログと警告,"ドメイン",無効,受信,許可,%systemroot%\system32\plasrv.exe,任意,任意,任意,任意,TCP,任意,任意
+ファイルとプリンターの共有 (LLMNR UDP 受信),ファイルとプリンターの共有,"すべて",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,5355,任意
+ファイルとプリンターの共有 (NB セッション受信),ファイルとプリンターの共有,"プライベート, パブリック",無効,受信,許可,System,任意,ローカルサブネット,任意,ローカルサブネット,TCP,139,任意
+ファイルとプリンターの共有 (NB セッション受信),ファイルとプリンターの共有,"ドメイン",無効,受信,許可,System,任意,任意,任意,任意,TCP,139,任意
+ファイルとプリンターの共有 (NB データグラム受信),ファイルとプリンターの共有,"プライベート, パブリック",無効,受信,許可,System,任意,ローカルサブネット,任意,ローカルサブネット,UDP,138,任意
+ファイルとプリンターの共有 (NB データグラム受信),ファイルとプリンターの共有,"ドメイン",無効,受信,許可,System,任意,任意,任意,任意,UDP,138,任意
+ファイルとプリンターの共有 (NB 名受信),ファイルとプリンターの共有,"プライベート, パブリック",無効,受信,許可,System,任意,ローカルサブネット,任意,ローカルサブネット,UDP,137,任意
+ファイルとプリンターの共有 (NB 名受信),ファイルとプリンターの共有,"ドメイン",無効,受信,許可,System,任意,任意,任意,任意,UDP,137,任意
+ファイルとプリンターの共有 (SMB 受信),ファイルとプリンターの共有,"プライベート, パブリック",無効,受信,許可,System,任意,ローカルサブネット,任意,ローカルサブネット,TCP,445,任意
+ファイルとプリンターの共有 (SMB 受信),ファイルとプリンターの共有,"ドメイン",無効,受信,許可,System,任意,任意,任意,任意,TCP,445,任意
+ファイルとプリンターの共有 (Spooler Service - RPC),ファイルとプリンターの共有,"プライベート, パブリック",無効,受信,許可,%SystemRoot%\system32\spoolsv.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,RPC,任意
+ファイルとプリンターの共有 (Spooler Service - RPC),ファイルとプリンターの共有,"ドメイン",無効,受信,許可,%SystemRoot%\system32\spoolsv.exe,任意,任意,任意,任意,TCP,RPC,任意
+ファイルとプリンターの共有 (エコー要求 - ICMPv4 受信),ファイルとプリンターの共有,"ドメイン",無効,受信,許可,System,任意,任意,任意,任意,ICMPv4,RPC,任意
+ファイルとプリンターの共有 (エコー要求 - ICMPv4 受信),ファイルとプリンターの共有,"プライベート, パブリック",無効,受信,許可,System,任意,ローカルサブネット4,任意,ローカルサブネット4,ICMPv4,RPC,任意
+ファイルとプリンターの共有 (エコー要求 - ICMPv6 受信),ファイルとプリンターの共有,"ドメイン",無効,受信,許可,System,任意,任意,任意,任意,ICMPv6,RPC,任意
+ファイルとプリンターの共有 (エコー要求 - ICMPv6 受信),ファイルとプリンターの共有,"プライベート, パブリック",無効,受信,許可,System,任意,ローカルサブネット6,任意,ローカルサブネット6,ICMPv6,RPC,任意
+ファイルとプリンターの共有 (スプーラー サービス - RPC-EPMAP),ファイルとプリンターの共有,"ドメイン",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,RPCEPMap,任意
+ファイルとプリンターの共有 (スプーラー サービス - RPC-EPMAP),ファイルとプリンターの共有,"プライベート, パブリック",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,RPCEPMap,任意
+ファイルとプリンターの共有 (スプーラー サービス ワーカー - RPC),ファイルとプリンターの共有,"プライベート, パブリック",無効,受信,許可,%SystemRoot%\system32\spoolsvworker.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,RPC,任意
+ファイルとプリンターの共有 (スプーラー サービス ワーカー - RPC),ファイルとプリンターの共有,"ドメイン",無効,受信,許可,%SystemRoot%\system32\spoolsvworker.exe,任意,任意,任意,任意,TCP,RPC,任意
+ファイルとプリンターの共有 (制限付き) (LLMNR-UDP 入力),ファイルとプリンターの共有 (制限付き),"すべて",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,5355,任意
+ファイルとプリンターの共有 (制限付き) (SMB 入力),ファイルとプリンターの共有 (制限付き),"すべて",無効,受信,許可,System,任意,任意,任意,任意,TCP,445,任意
+ファイルとプリンターの共有 (制限付き) (エコー要求 - ICMPv4 受信),ファイルとプリンターの共有 (制限付き),"すべて",無効,受信,許可,System,任意,任意,任意,任意,ICMPv4,RPC,任意
+ファイルとプリンターの共有 (制限付き) (エコー要求 - ICMPv6 受信),ファイルとプリンターの共有 (制限付き),"すべて",無効,受信,許可,System,任意,任意,任意,任意,ICMPv6,RPC,任意
+ファイルとプリンターの共有 (制限付き) (スプーラー サービス - RPC),ファイルとプリンターの共有 (制限付き),"すべて",無効,受信,許可,%SystemRoot%\system32\spoolsv.exe,任意,任意,任意,任意,TCP,RPC,任意
+ファイルとプリンターの共有 (制限付き) (スプーラー サービス - RPC-EPMAP),ファイルとプリンターの共有 (制限付き),"すべて",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,RPCEPMap,任意
+ファイルとプリンターの共有 (制限付き) (スプーラー サービス ワーカー - RPC),ファイルとプリンターの共有 (制限付き),"すべて",無効,受信,許可,%SystemRoot%\system32\spoolsvworker.exe,任意,任意,任意,任意,TCP,RPC,任意
+リモート アシスタンス (DCOM 受信),リモート アシスタンス,"ドメイン",有効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,135,任意
+リモート アシスタンス (PNRP-受信),リモート アシスタンス,"ドメイン, プライベート",有効,受信,許可,%systemroot%\system32\svchost.exe,任意,任意,任意,任意,UDP,3540,任意
+リモート アシスタンス (PNRP-受信),リモート アシスタンス,"パブリック",無効,受信,許可,%systemroot%\system32\svchost.exe,任意,任意,任意,任意,UDP,3540,任意
+リモート アシスタンス (RA サーバー TCP 受信),リモート アシスタンス,"ドメイン",有効,受信,許可,%SystemRoot%\system32\raserver.exe,任意,任意,任意,任意,TCP,任意,任意
+リモート アシスタンス (SSDP TCP-受信),リモート アシスタンス,"ドメイン, プライベート",有効,受信,許可,System,任意,ローカルサブネット,任意,ローカルサブネット,TCP,2869,任意
+リモート アシスタンス (SSDP UDP-受信),リモート アシスタンス,"ドメイン, プライベート",有効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,1900,任意
+リモート アシスタンス (TCP 受信),リモート アシスタンス,"ドメイン, プライベート",有効,受信,許可,%SystemRoot%\system32\msra.exe,任意,任意,任意,任意,TCP,任意,任意
+リモート アシスタンス (TCP 受信),リモート アシスタンス,"パブリック",無効,受信,許可,%SystemRoot%\system32\msra.exe,任意,任意,任意,任意,TCP,任意,任意
+リモート イベント モニター (RPC),リモート イベント モニター,"すべて",無効,受信,許可,%SystemRoot%\system32\NetEvtFwdr.exe,任意,任意,任意,任意,TCP,RPC,任意
+リモート イベント モニター (RPC-EPMAP),リモート イベント モニター,"すべて",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,RPCEPMap,任意
+リモート イベント ログ管理 (RPC-EPMAP),リモート イベントのログ管理,"プライベート, パブリック",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,RPCEPMap,任意
+リモート イベント ログ管理 (RPC-EPMAP),リモート イベントのログ管理,"ドメイン",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,RPCEPMap,任意
+リモート イベントのログ管理 (NP 受信),リモート イベントのログ管理,"ドメイン",無効,受信,許可,System,任意,任意,任意,任意,TCP,445,任意
+リモート イベントのログ管理 (NP 受信),リモート イベントのログ管理,"プライベート, パブリック",無効,受信,許可,System,任意,ローカルサブネット,任意,ローカルサブネット,TCP,445,任意
+リモート イベントのログ管理 (RPC),リモート イベントのログ管理,"ドメイン",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,RPC,任意
+リモート イベントのログ管理 (RPC),リモート イベントのログ管理,"プライベート, パブリック",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,RPC,任意
+リモート サービス管理 (NP 受信),リモート サービス管理,"ドメイン",無効,受信,許可,System,任意,任意,任意,任意,TCP,445,任意
+リモート サービス管理 (NP 受信),リモート サービス管理,"プライベート, パブリック",無効,受信,許可,System,任意,ローカルサブネット,任意,ローカルサブネット,TCP,445,任意
+リモート サービス管理 (RPC),リモート サービス管理,"プライベート, パブリック",無効,受信,許可,%SystemRoot%\system32\services.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,RPC,任意
+リモート サービス管理 (RPC),リモート サービス管理,"ドメイン",無効,受信,許可,%SystemRoot%\system32\services.exe,任意,任意,任意,任意,TCP,RPC,任意
+リモート サービス管理 (RPC-EPMAP),リモート サービス管理,"ドメイン",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,RPCEPMap,任意
+リモート サービス管理 (RPC-EPMAP),リモート サービス管理,"プライベート, パブリック",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,RPCEPMap,任意
+リモート シャットダウンの受信規則 (RPC-EP 受信),リモート シャットダウン,"すべて",無効,受信,許可,%systemroot%\system32\wininit.exe,任意,任意,任意,任意,TCP,RPCEPMap,任意
+リモート シャットダウンの受信規則 (TCP 受信),リモート シャットダウン,"すべて",無効,受信,許可,%systemroot%\system32\wininit.exe,任意,任意,任意,任意,TCP,RPC,任意
+リモート デスクトップ - シャドウ (TCP 受信),リモート デスクトップ,"すべて",有効,受信,許可,%SystemRoot%\system32\RdpSa.exe,任意,任意,任意,任意,TCP,任意,任意
+リモート デスクトップ - ユーザー モード (TCP 受信),リモート デスクトップ,"すべて",有効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,3389,任意
+リモート デスクトップ - ユーザー モード (UDP 受信),リモート デスクトップ,"すべて",有効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,UDP,3389,任意
+リモート デスクトップ - (TCP-WSS 受信),リモート デスクトップ (WebSocket),"すべて",無効,受信,許可,System,任意,任意,任意,任意,TCP,3392,任意
+リモート ボリューム管理 - 仮想ディスク サービス (RPC),リモート ボリューム管理,"プライベート, パブリック",無効,受信,許可,%SystemRoot%\system32\vds.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,RPC,任意
+リモート ボリューム管理 - 仮想ディスク サービス (RPC),リモート ボリューム管理,"ドメイン",無効,受信,許可,%SystemRoot%\system32\vds.exe,任意,任意,任意,任意,TCP,RPC,任意
+リモート ボリューム管理 - 仮想ディスク サービス ローダー (RPC),リモート ボリューム管理,"プライベート, パブリック",無効,受信,許可,%SystemRoot%\system32\vdsldr.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,RPC,任意
+リモート ボリューム管理 - 仮想ディスク サービス ローダー (RPC),リモート ボリューム管理,"ドメイン",無効,受信,許可,%SystemRoot%\system32\vdsldr.exe,任意,任意,任意,任意,TCP,RPC,任意
+リモート ボリューム管理 (RPC-EPMAP),リモート ボリューム管理,"プライベート, パブリック",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,RPCEPMap,任意
+リモート ボリューム管理 (RPC-EPMAP),リモート ボリューム管理,"ドメイン",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,RPCEPMap,任意
+ルーティングとリモート アクセス (GRE 受信),ルーティングとリモート アクセス,"すべて",無効,受信,許可,System,任意,任意,任意,任意,47,任意,任意
+ルーティングとリモート アクセス (L2TP 受信),ルーティングとリモート アクセス,"すべて",無効,受信,許可,System,任意,任意,任意,任意,UDP,1701,任意
+ルーティングとリモート アクセス (PPTP 受信),ルーティングとリモート アクセス,"すべて",無効,受信,許可,System,任意,任意,任意,任意,TCP,1723,任意
+ワイヤレス ディスプレイ (TCP 入力),ワイヤレス ディスプレイ,"すべて",有効,受信,許可,%systemroot%\system32\WUDFHost.exe,任意,任意,任意,任意,TCP,任意,任意
+ワイヤレス ディスプレイ インフラストラクチャ バック チャネル (TCP 受信),ワイヤレス ディスプレイ,"すべて",有効,受信,許可,%systemroot%\system32\CastSrv.exe,任意,任意,任意,任意,TCP,7250,任意
+ワイヤレス ポータブル デバイス (SSDP 受信),ワイヤレス ポータブル デバイス,"すべて",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,1900,任意
+ワイヤレス ポータブル デバイス (UPnP 受信),ワイヤレス ポータブル デバイス,"すべて",無効,受信,許可,System,任意,ローカルサブネット,任意,ローカルサブネット,TCP,2869,任意
+仮想マシンの監視 (DCOM 受信),仮想マシンの監視,"すべて",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,135,任意
+仮想マシンの監視 (NB セッション受信),仮想マシンの監視,"すべて",無効,受信,許可,System,任意,任意,任意,任意,TCP,139,任意
+仮想マシンの監視 (RPC),仮想マシンの監視,"すべて",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,RPC,任意
+仮想マシンの監視 (エコー要求 - ICMPv4 受信),仮想マシンの監視,"すべて",無効,受信,許可,System,任意,任意,任意,任意,ICMPv4,任意,任意
+仮想マシンの監視 (エコー要求 - ICMPv6 受信),仮想マシンの監視,"すべて",無効,受信,許可,System,任意,任意,任意,任意,ICMPv6,任意,任意
+TCP 上の近接通信共有 (TCP 共有),近接通信共有,"すべて",有効,受信,許可,%SystemRoot%\system32\proximityuxhost.exe,任意,任意,任意,任意,TCP,任意,任意
+職場または学校アカウント,職場または学校アカウント,"ドメイン, プライベート",有効,受信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+分散トランザクション コーディネーター (RPC),分散トランザクション コーディネーター,"ドメイン",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,RPC,任意
+分散トランザクション コーディネーター (RPC),分散トランザクション コーディネーター,"プライベート, パブリック",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,RPC,任意
+分散トランザクション コーディネーター (RPC-EPMAP),分散トランザクション コーディネーター,"ドメイン",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,RPCEPMap,任意
+分散トランザクション コーディネーター (RPC-EPMAP),分散トランザクション コーディネーター,"プライベート, パブリック",無効,受信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,RPCEPMap,任意
+分散トランザクション コーディネーター (TCP 受信),分散トランザクション コーディネーター,"ドメイン",無効,受信,許可,%SystemRoot%\system32\msdtc.exe,任意,任意,任意,任意,TCP,任意,任意
+分散トランザクション コーディネーター (TCP 受信),分散トランザクション コーディネーター,"プライベート, パブリック",無効,受信,許可,%SystemRoot%\system32\msdtc.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,任意,任意
+@{Clipchamp.Clipchamp_3.0.10220.0_neutral__yxz26nhyzhsrt?ms-resource://Clipchamp.Clipchamp/Resources/Clipchamp/AppName},@{Clipchamp.Clipchamp_3.0.10220.0_neutral__yxz26nhyzhsrt?ms-resource://Clipchamp.Clipchamp/Resources/Clipchamp/AppName},"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+@{Microsoft.GetHelp_10.2302.10601.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.GetHelp/Resources/appDisplayName},@{Microsoft.GetHelp_10.2302.10601.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.GetHelp/Resources/appDisplayName},"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+@{Microsoft.StorePurchaseApp_22312.1400.6.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.StorePurchaseApp/Resources/DisplayTitle},@{Microsoft.StorePurchaseApp_22312.1400.6.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.StorePurchaseApp/Resources/DisplayTitle},"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+@{Microsoft.WindowsCamera_2023.2312.3.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsCamera/LensSDK/Resources/AppStoreName},@{Microsoft.WindowsCamera_2023.2312.3.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsCamera/LensSDK/Resources/AppStoreName},"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+@{Microsoft.WindowsFeedbackHub_1.2401.20253.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsFeedbackHub/Resources/AppStoreName},@{Microsoft.WindowsFeedbackHub_1.2401.20253.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.WindowsFeedbackHub/Resources/AppStoreName},"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+@{Microsoft.XboxGamingOverlay_2.624.1111.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.XboxGamingOverlay/resources/GameBar},@{Microsoft.XboxGamingOverlay_2.624.1111.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.XboxGamingOverlay/resources/GameBar},"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+@{Microsoft.XboxIdentityProvider_12.110.15002.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.XboxIdentityProvider/Resources/DisplayName},@{Microsoft.XboxIdentityProvider_12.110.15002.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.XboxIdentityProvider/Resources/DisplayName},"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+@{Microsoft.ZuneMusic_11.2312.8.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.ZuneMusic/Resources/AppStoreName},@{Microsoft.ZuneMusic_11.2312.8.0_x64__8wekyb3d8bbwe?ms-resource://Microsoft.ZuneMusic/Resources/AppStoreName},"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+Microsoft Teams,{78E1CD88-49E3-476E-B926-580E596AD309},"すべて",有効,送信,許可,C:\Program Files\WindowsApps\MSTeams_26032.208.4399.5_x64__8wekyb3d8bbwe\ms-teams.exe,任意,任意,任意,任意,UDP,任意,任意
+Microsoft Teams,{78E1CD88-49E3-476E-B926-580E596AD309},"すべて",有効,送信,許可,C:\Program Files\WindowsApps\MSTeams_26032.208.4399.5_x64__8wekyb3d8bbwe\ms-teams.exe,任意,任意,任意,任意,TCP,任意,任意
+Microsoft Teams,{78E1CD88-49E3-476E-B926-580E596AD309},"すべて",有効,送信,許可,C:\Program Files\WindowsApps\MSTeams_26032.208.4399.5_x64__8wekyb3d8bbwe\ms-teams.exe,任意,任意,任意,任意,UDP,任意,任意
+Microsoft Teams,{78E1CD88-49E3-476E-B926-580E596AD309},"すべて",有効,送信,許可,C:\Program Files\WindowsApps\MSTeams_26032.208.4399.5_x64__8wekyb3d8bbwe\ms-teams.exe,任意,任意,任意,任意,TCP,任意,任意
+ms-resource:ProductPkgDisplayName,{78E1CD88-49E3-476E-B926-580E596AD309},"プライベート",有効,送信,許可,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\WindowsBackupClient.exe,任意,任意,任意,任意,TCP,7000,任意
+ms-resource:ProductPkgDisplayName,{78E1CD88-49E3-476E-B926-580E596AD309},"パブリック",有効,送信,許可,C:\Windows\SystemApps\MicrosoftWindows.Client.OOBE_cw5n1h2txyewy\OobeHostApp.exe,任意,任意,任意,任意,TCP,7000,任意
+ms-resource:ProductPkgDisplayName,{78E1CD88-49E3-476E-B926-580E596AD309},"パブリック",有効,送信,許可,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\WindowsBackupClient.exe,任意,任意,任意,任意,UDP,7000,任意
+ms-resource:ProductPkgDisplayName,{78E1CD88-49E3-476E-B926-580E596AD309},"プライベート",有効,送信,許可,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\WindowsBackupClient.exe,任意,任意,任意,任意,UDP,7000,任意
+ms-resource:ProductPkgDisplayName,{78E1CD88-49E3-476E-B926-580E596AD309},"パブリック",有効,送信,許可,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\WindowsBackupClient.exe,任意,任意,任意,任意,TCP,7000,任意
+ms-resource:ProductPkgDisplayName,{78E1CD88-49E3-476E-B926-580E596AD309},"プライベート",有効,送信,許可,C:\Windows\SystemApps\MicrosoftWindows.Client.OOBE_cw5n1h2txyewy\OobeHostApp.exe,任意,任意,任意,任意,UDP,7000,任意
+ms-resource:ProductPkgDisplayName,{78E1CD88-49E3-476E-B926-580E596AD309},"パブリック",有効,送信,許可,C:\Windows\SystemApps\MicrosoftWindows.Client.OOBE_cw5n1h2txyewy\OobeHostApp.exe,任意,任意,任意,任意,UDP,7000,任意
+ms-resource:ProductPkgDisplayName,{78E1CD88-49E3-476E-B926-580E596AD309},"プライベート",有効,送信,許可,C:\Windows\SystemApps\MicrosoftWindows.Client.OOBE_cw5n1h2txyewy\OobeHostApp.exe,任意,任意,任意,任意,TCP,7000,任意
+AllJoyn ルーター (TCP 送信),AllJoyn ルーター,"ドメイン, プライベート",有効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,任意,任意
+AllJoyn ルーター (UDP 送信),AllJoyn ルーター,"ドメイン, プライベート",有効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,UDP,任意,任意
+App Installer,App Installer,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+BranchCache コンテンツ取得 (HTTP-送信),BranchCache - コンテンツ取得 (HTTP を使用),"すべて",無効,送信,許可,SYSTEM,任意,任意,任意,任意,TCP,任意,80
+BranchCache ピア検出 (WSD-送信),BranchCache - ピア検出 (WSD を使用),"すべて",無効,送信,許可,%systemroot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,任意,3702
+BranchCache ホスト型キャッシュ クライアント (HTTP-送信),BranchCache - ホスト型キャッシュ クライアント (HTTPS を使用),"すべて",無効,送信,許可,SYSTEM,任意,任意,任意,任意,TCP,任意,80 443
+BranchCache ホスト型キャッシュ サーバー (HTTP-送信),BranchCache - ホスト型キャッシュ サーバー (HTTPS を使用),"すべて",無効,送信,許可,SYSTEM,任意,任意,任意,任意,TCP,80 443,任意
+Connected Devices Platform - Wi-Fi Direct トランスポート (TCP 送信),Connected Devices Platform,"パブリック",有効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,任意,任意
+Connected Devices Platform (TCP 送信),Connected Devices Platform,"ドメイン, プライベート",有効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,任意,任意
+Connected Devices Platform (UDP 送信),Connected Devices Platform,"ドメイン, プライベート",有効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,UDP,任意,任意
+Connected User Experiences and Telemetry,DiagTrack,"すべて",有効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,任意,443
+Intel(R) Management and Security Status,Intel(R) Management and Security Status,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+iSCSI サービス (TCP 送信),iSCSI サービス,"ドメイン",無効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,任意,任意
+iSCSI サービス (TCP 送信),iSCSI サービス,"プライベート, パブリック",無効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,任意,任意
+mDNS (UDP 送信),mDNS,"ドメイン",有効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,UDP,任意,5353
+mDNS (UDP 送信),mDNS,"パブリック",有効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,任意,5353
+mDNS (UDP 送信),mDNS,"プライベート",有効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,任意,5353
+Media Center Extender - qWave (TCP 送信),Media Center Extender,"すべて",無効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,任意,2177
+Media Center Extender - qWave (UDP 送信),Media Center Extender,"すべて",無効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,任意,2177
+Media Center Extender - RTSP (TCP 送信),Media Center Extender,"すべて",無効,送信,許可,%SystemRoot%\ehome\ehshell.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,任意,任意
+Media Center Extender - SSDP (UDP 送信),Media Center Extender,"すべて",無効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,任意,1900
+Media Center Extender - WMDRM-ND/RTP/RTCP (UDP 送信),Media Center Extender,"すべて",無効,送信,許可,%SystemRoot%\ehome\ehshell.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,任意,任意
+Media Center Extender - サービス (TCP 送信),Media Center Extender,"すべて",無効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,任意,任意
+Media Center Extender - デバイス プロビジョニング (TCP 送信),Media Center Extender,"すべて",無効,送信,許可,%SystemRoot%\ehome\mcx2prov.exe,任意,任意,任意,任意,TCP,任意,任意
+Media Center Extenders - Media ストリーミング (TCP-Out),Media Center Extender,"すべて",無効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,任意,任意
+Media Center Extenders - Media ストリーミング (UDP-Out),Media Center Extender,"すべて",無効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,1900,任意
+Media Center Extenders - UPnP (TCP-Out),Media Center Extender,"すべて",無効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,任意,任意
+Media Center Extenders - デバイス評価 (TCP-Out),Media Center Extender,"すべて",無効,送信,許可,%SystemRoot%\ehome\mcrmgr.exe,任意,任意,任意,任意,TCP,任意,任意
+Microsoft Content,Microsoft Content,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+Microsoft Edge ゲームアシスト,Microsoft Edge ゲームアシスト,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+Microsoft Family,Microsoft Family,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+Microsoft Teams,Microsoft Teams,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+Microsoft To Do,Microsoft To Do,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+Microsoft ファミリー セーフティ,Microsoft ファミリー セーフティ,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+Microsoft メディア ファンデーション ネットワーク ソース送信 [TCP ALL],Microsoft メディア ファンデーション ネットワーク ソース,"すべて",有効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,任意,554 8554-8558
+Start エクスペリエンス アプリ,Start エクスペリエンス アプリ,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+TPM 仮想スマートカード管理 (TCP 送信),TPM 仮想スマートカード管理,"プライベート, パブリック",無効,送信,許可,%SystemRoot%\system32\RmtTpmVscMgrSvr.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,任意,任意
+TPM 仮想スマートカード管理 (TCP 送信),TPM 仮想スマートカード管理,"ドメイン",無効,送信,許可,%SystemRoot%\system32\RmtTpmVscMgrSvr.exe,任意,任意,任意,任意,TCP,任意,任意
+Widgets Platform Runtime,Widgets Platform Runtime,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+Widgets Platform Runtime,Widgets Platform Runtime,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+Wi-Fi Direct スキャン サービスの使用 (送信),Wi-Fi Direct ネットワーク探索,"パブリック",有効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,任意,任意,任意
+Wi-Fi Direct スプーラーの使用 (送信),Wi-Fi Direct ネットワーク探索,"パブリック",有効,送信,許可,%SystemRoot%\system32\spoolsv.exe,任意,任意,任意,任意,任意,任意,任意
+Wi-Fi Direct ネットワーク探索 (送信),Wi-Fi Direct ネットワーク探索,"パブリック",有効,送信,許可,%SystemRoot%\system32\dashost.exe,任意,任意,任意,任意,任意,任意,任意
+Windows Defender SmartScreen,Windows Defender SmartScreen,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+Windows Management Instrumentation (WMI 送信),Windows Management Instrumentation (WMI),"プライベート, パブリック",無効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,任意,任意
+Windows Management Instrumentation (WMI 送信),Windows Management Instrumentation (WMI),"ドメイン",無効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,任意,任意
+Windows Media Player (TCP 送信),Windows Media Player,"すべて",無効,送信,許可,%ProgramFiles%\Windows Media Player\wmplayer.exe,任意,任意,任意,任意,TCP,任意,任意
+Windows Media Player (UDP 送信),Windows Media Player,"すべて",無効,送信,許可,%ProgramFiles%\Windows Media Player\wmplayer.exe,任意,任意,任意,任意,UDP,任意,任意
+Windows Media Player x86 (TCP 送信),Windows Media Player,"すべて",無効,送信,許可,%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe,任意,任意,任意,任意,TCP,任意,任意
+Windows Media Player x86 (UDP 送信),Windows Media Player,"すべて",無効,送信,許可,%ProgramFiles(x86)%\Windows Media Player\wmplayer.exe,任意,任意,任意,任意,UDP,任意,任意
+Windows Media Player ネットワーク共有サービス (HTTP ストリーミング送信),Windows Media Player ネットワーク共有サービス,"プライベート, パブリック",無効,送信,許可,System,任意,ローカルサブネット,任意,ローカルサブネット,TCP,任意,10243
+Windows Media Player ネットワーク共有サービス (HTTP ストリーミング送信),Windows Media Player ネットワーク共有サービス,"ドメイン",無効,送信,許可,System,任意,任意,任意,任意,TCP,任意,10243
+Windows Media Player ネットワーク共有サービス (qWave TCP 送信),Windows Media Player ネットワーク共有サービス,"ドメイン",無効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,任意,2177
+Windows Media Player ネットワーク共有サービス (qWave TCP 送信),Windows Media Player ネットワーク共有サービス,"プライベート, パブリック",無効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,任意,2177
+Windows Media Player ネットワーク共有サービス (qWave UDP 送信),Windows Media Player ネットワーク共有サービス,"ドメイン",無効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,UDP,任意,2177
+Windows Media Player ネットワーク共有サービス (qWave UDP 送信),Windows Media Player ネットワーク共有サービス,"プライベート, パブリック",無効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,任意,2177
+Windows Media Player ネットワーク共有サービス (SSDP 送信),Windows Media Player ネットワーク共有サービス,"すべて",無効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,任意,1900
+Windows Media Player ネットワーク共有サービス (TCP 送信),Windows Media Player ネットワーク共有サービス,"ドメイン",無効,送信,許可,%PROGRAMFILES%\Windows Media Player\wmpnetwk.exe,任意,任意,任意,任意,TCP,任意,任意
+Windows Media Player ネットワーク共有サービス (TCP 送信),Windows Media Player ネットワーク共有サービス,"プライベート, パブリック",無効,送信,許可,%PROGRAMFILES%\Windows Media Player\wmpnetwk.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,任意,任意
+Windows Media Player ネットワーク共有サービス (UDP 送信),Windows Media Player ネットワーク共有サービス,"ドメイン",無効,送信,許可,%PROGRAMFILES%\Windows Media Player\wmpnetwk.exe,任意,任意,任意,任意,UDP,任意,任意
+Windows Media Player ネットワーク共有サービス (UDP 送信),Windows Media Player ネットワーク共有サービス,"プライベート, パブリック",無効,送信,許可,%PROGRAMFILES%\Windows Media Player\wmpnetwk.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,任意,任意
+Windows Media Player ネットワーク共有サービス (UPnP 送信),Windows Media Player ネットワーク共有サービス,"すべて",無効,送信,許可,System,任意,ローカルサブネット,任意,ローカルサブネット,TCP,任意,任意
+Windows Media Player ネットワーク共有サービス (UPnPHost 送信),Windows Media Player ネットワーク共有サービス,"すべて",無効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,任意,任意
+Windows Media Player ネットワーク共有サービス (ストリーミング TCP 送信),Windows Media Player ネットワーク共有サービス,"プライベート, パブリック",無効,送信,許可,%PROGRAMFILES%\Windows Media Player\wmplayer.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,任意,任意
+Windows Media Player ネットワーク共有サービス (ストリーミング TCP 送信),Windows Media Player ネットワーク共有サービス,"ドメイン",無効,送信,許可,%PROGRAMFILES%\Windows Media Player\wmplayer.exe,任意,任意,任意,任意,TCP,任意,任意
+Windows Media Player ネットワーク共有サービス (ストリーミング UDP 送信),Windows Media Player ネットワーク共有サービス,"ドメイン",無効,送信,許可,%PROGRAMFILES%\Windows Media Player\wmplayer.exe,任意,任意,任意,任意,UDP,任意,任意
+Windows Media Player ネットワーク共有サービス (ストリーミング UDP 送信),Windows Media Player ネットワーク共有サービス,"プライベート, パブリック",無効,送信,許可,%PROGRAMFILES%\Windows Media Player\wmplayer.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,任意,任意
+Windows Web Experience Pack,Windows Web Experience Pack,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+Windows Web Experience Pack,Windows Web Experience Pack,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+Windows グループ作業ツール コンピューター名の登録サービス (PNRP 送信),Windows グループ作業ツール コンピューター名の登録サービス,"すべて",無効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,UDP,任意,3540
+Windows グループ作業ツール コンピューター名の登録サービス (SSDP 送信),Windows グループ作業ツール コンピューター名の登録サービス,"すべて",無効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,任意,1900
+Windows シェル エクスペリエンス,Windows シェル エクスペリエンス,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+Windows シェル エクスペリエンス,Windows シェル エクスペリエンス,"ドメイン, プライベート",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+Windows セキュリティ,Windows セキュリティ,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+Windows ターミナル,Windows ターミナル,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+Windows ターミナル,Windows ターミナル,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+Windows デバイス管理デバイス登録プログラム (TCP 送信),Windows デバイスの管理,"すべて",有効,送信,許可,%SystemRoot%\system32\deviceenroller.exe,任意,任意,任意,任意,TCP,49152-65535,80 443
+Windows デバイス管理証明書インストーラー (TCP 送信),Windows デバイスの管理,"すべて",有効,送信,許可,%SystemRoot%\system32\dmcertinst.exe,任意,任意,任意,任意,TCP,49152-65535,任意
+Windows デバイス管理登録サービス (TCP 送信),Windows デバイスの管理,"すべて",有効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,49152-65535,任意
+Windows デバイス管理同期クライアント (TCP 送信),Windows デバイスの管理,"すべて",有効,送信,許可,%SystemRoot%\system32\omadmclient.exe,任意,任意,任意,任意,TCP,49152-65535,任意
+Windows の既定のロック画面,Windows の既定のロック画面,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+Windows ピア ツー ピア共同作業ファンデーション (PNRP 送信),Windows ピア ツー ピア共同作業ファンデーション,"すべて",無効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,UDP,任意,3540
+Windows ピア ツー ピア共同作業ファンデーション (SSDP 送信),Windows ピア ツー ピア共同作業ファンデーション,"すべて",無効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,任意,1900
+Windows ピア ツー ピア共同作業ファンデーション (TCP 送信),Windows ピア ツー ピア共同作業ファンデーション,"すべて",無効,送信,許可,%SystemRoot%\system32\p2phost.exe,任意,任意,任意,任意,TCP,任意,任意
+Windows ピア ツー ピア共同作業ファンデーション (WSD 送信),Windows ピア ツー ピア共同作業ファンデーション,"すべて",無効,送信,許可,%SystemRoot%\system32\p2phost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,任意,3702
+Windows 印刷,Windows 印刷,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+Windows 機能エクスペリエンス パック,Windows 機能エクスペリエンス パック,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+Windows 機能エクスペリエンス パック,Windows 機能エクスペリエンス パック,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+Windows 機能エクスペリエンス パック,Windows 機能エクスペリエンス パック,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+Windows 機能エクスペリエンス パック,Windows 機能エクスペリエンス パック,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+Windows 機能エクスペリエンス パック,Windows 機能エクスペリエンス パック,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+Windows 機能エクスペリエンス パック,Windows 機能エクスペリエンス パック,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+Windows 機能エクスペリエンス パック,Windows 機能エクスペリエンス パック,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+Windows 機能エクスペリエンス パック,Windows 機能エクスペリエンス パック,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+Windows 機能エクスペリエンス パック,Windows 機能エクスペリエンス パック,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+Windows 機能エクスペリエンス パック,Windows 機能エクスペリエンス パック,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+Windows 電卓,Windows 電卓,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+windows_ie_ac_001,windows_ie_ac_001,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+WFD ASP Coordination Protocol (UDP 送信),WLAN サービス - WFD Application Services Platform Coordination Protocol (UDP 使用),"すべて",有効,送信,許可,%systemroot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,7235,7235
+WFD ドライバーのみ (TCP 送信),WLAN サービス - WFD サービス カーネル モード ドライバー規則,"すべて",有効,送信,許可,System,任意,任意,任意,任意,TCP,任意,任意
+WFD ドライバーのみ (UDP 送信),WLAN サービス - WFD サービス カーネル モード ドライバー規則,"すべて",有効,送信,許可,System,任意,任意,任意,任意,UDP,任意,任意
+Xbox Game UI,Xbox Game UI,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+アカウント,アカウント,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+キャプティブ ポータル フロー,キャプティブ ポータル フロー,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+クラウド ID (TCP 送信),クラウド ID,"すべて",有効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,任意,443
+クリックで実行,クリックで実行,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+コア ネットワーク - DNS (UDP 送信),コア ネットワーク,"すべて",有効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,UDP,任意,53
+コア ネットワーク - IPHTTPS (TCP-送信),コア ネットワーク,"すべて",有効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,任意,IPHTTPSOut
+コア ネットワーク - IPv6 (IPv6 送信),コア ネットワーク,"すべて",有効,送信,許可,System,任意,任意,任意,任意,41,任意,任意
+コア ネットワーク - IPv6 用動的ホスト構成プロトコル (DHCPV6-送信),コア ネットワーク,"すべて",有効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,UDP,546,547
+コア ネットワーク - Teredo (UDP 送信),コア ネットワーク,"すべて",有効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,UDP,任意,任意
+コア ネットワーク - インターネット グループ管理プロトコル (IGMP 送信),コア ネットワーク,"すべて",有効,送信,許可,System,任意,任意,任意,任意,2,任意,任意
+コア ネットワーク - グループ ポリシー (LSASS 送信),コア ネットワーク,"ドメイン",有効,送信,許可,%SystemRoot%\system32\lsass.exe,任意,任意,任意,任意,TCP,任意,任意
+コア ネットワーク - グループ ポリシー (NP 送信),コア ネットワーク,"ドメイン",有効,送信,許可,System,任意,任意,任意,任意,TCP,任意,445
+コア ネットワーク - グループ ポリシー (TCP 送信),コア ネットワーク,"ドメイン",有効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,任意,任意
+コア ネットワーク - パケットが大きすぎます (ICMPv6 送信),コア ネットワーク,"すべて",有効,送信,許可,System,任意,任意,任意,任意,ICMPv6,RPC,任意
+コア ネットワーク - パラメーターの問題 (ICMPv6 送信),コア ネットワーク,"すべて",有効,送信,許可,System,任意,任意,任意,任意,ICMPv6,RPC,任意
+コア ネットワーク - マルチキャスト リスナー クエリ (ICMPv6 送信),コア ネットワーク,"すべて",有効,送信,許可,System,任意,ローカルサブネット6,任意,ローカルサブネット6,ICMPv6,RPC,任意
+コア ネットワーク - マルチキャスト リスナー レポート (ICMPv6 送信),コア ネットワーク,"すべて",有効,送信,許可,System,任意,ローカルサブネット6,任意,ローカルサブネット6,ICMPv6,RPC,任意
+コア ネットワーク - マルチキャスト リスナー レポート v2 (ICMPv6 送信),コア ネットワーク,"すべて",有効,送信,許可,System,任意,ローカルサブネット6,任意,ローカルサブネット6,ICMPv6,RPC,任意
+コア ネットワーク - マルチキャスト リスナー完了 (ICMPv6 送信),コア ネットワーク,"すべて",有効,送信,許可,System,任意,ローカルサブネット6,任意,ローカルサブネット6,ICMPv6,RPC,任意
+コア ネットワーク - ルーター アドバタイズ (ICMPv6 送信),コア ネットワーク,"すべて",有効,送信,許可,System,fe80::/64,ローカルサブネット6 ff02::1 fe80::/64,fe80::/64,ローカルサブネット6 ff02::1 fe80::/64,ICMPv6,RPC,任意
+コア ネットワーク - ルーター要請 (ICMPv6 送信),コア ネットワーク,"すべて",有効,送信,許可,System,任意,ローカルサブネット6 ff02::2 fe80::/64,任意,ローカルサブネット6 ff02::2 fe80::/64,ICMPv6,RPC,任意
+コア ネットワーク - 近隣探索アドバタイズ (ICMPv6 送信),コア ネットワーク,"すべて",有効,送信,許可,System,任意,任意,任意,任意,ICMPv6,RPC,任意
+コア ネットワーク - 近隣探索要請 (ICMPv6 送信),コア ネットワーク,"すべて",有効,送信,許可,System,任意,任意,任意,任意,ICMPv6,RPC,任意
+コア ネットワーク - 時間超過 (ICMPv6 送信),コア ネットワーク,"すべて",有効,送信,許可,System,任意,任意,任意,任意,ICMPv6,RPC,任意
+コア ネットワーク - 動的ホスト構成プロトコル (DHCP 送信),コア ネットワーク,"すべて",有効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,UDP,68,67
+コア ネットワーク診断 - ICMP エコー要求 (ICMPv4 送信),コア ネットワーク診断,"ドメイン",無効,送信,許可,System,任意,任意,任意,任意,ICMPv4,RPC,任意
+コア ネットワーク診断 - ICMP エコー要求 (ICMPv4 送信),コア ネットワーク診断,"プライベート, パブリック",無効,送信,許可,System,任意,ローカルサブネット4,任意,ローカルサブネット4,ICMPv4,RPC,任意
+コア ネットワーク診断 - ICMP エコー要求 (ICMPv6 送信),コア ネットワーク診断,"プライベート, パブリック",無効,送信,許可,System,任意,ローカルサブネット6,任意,ローカルサブネット6,ICMPv6,RPC,任意
+コア ネットワーク診断 - ICMP エコー要求 (ICMPv6 送信),コア ネットワーク診断,"ドメイン",無効,送信,許可,System,任意,任意,任意,任意,ICMPv6,RPC,任意
+スタート,スタート,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+デスクトップ アプリ Web ビューアー,デスクトップ アプリ Web ビューアー,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+テスト,テスト,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+デバイス キャスト ストリーミング サーバー (RTP ストリーミング送信),デバイス キャスト機能,"プライベート",有効,送信,許可,%SystemRoot%\system32\mdeserver.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,任意,任意
+デバイス キャスト ストリーミング サーバー (RTP ストリーミング送信),デバイス キャスト機能,"ドメイン",有効,送信,許可,%SystemRoot%\system32\mdeserver.exe,任意,任意,任意,任意,UDP,任意,任意
+デバイス キャスト ストリーミング サーバー (RTP ストリーミング送信),デバイス キャスト機能,"パブリック",有効,送信,許可,%SystemRoot%\system32\mdeserver.exe,任意,PlayToDevice,任意,PlayToDevice,UDP,任意,任意
+デバイス キャスト機能 (qWave TCP 送信),デバイス キャスト機能,"プライベート, パブリック",有効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,PlayToDevice,任意,PlayToDevice,TCP,任意,2177
+デバイス キャスト機能 (qWave UDP 送信),デバイス キャスト機能,"プライベート, パブリック",有効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,PlayToDevice,任意,PlayToDevice,UDP,任意,2177
+ナレーター,ナレーター,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+ネットワーク探索 (LLMNR UDP 送信),ネットワーク探索,"ドメイン, パブリック",無効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,任意,5355
+ネットワーク探索 (LLMNR UDP 送信),ネットワーク探索,"プライベート",有効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,任意,5355
+ネットワーク探索 (NB データグラム送信),ネットワーク探索,"ドメイン",無効,送信,許可,System,任意,任意,任意,任意,UDP,任意,138
+ネットワーク探索 (NB データグラム送信),ネットワーク探索,"パブリック",無効,送信,許可,System,任意,ローカルサブネット,任意,ローカルサブネット,UDP,任意,138
+ネットワーク探索 (NB データグラム送信),ネットワーク探索,"プライベート",有効,送信,許可,System,任意,ローカルサブネット,任意,ローカルサブネット,UDP,任意,138
+ネットワーク探索 (NB 名送信),ネットワーク探索,"ドメイン",無効,送信,許可,System,任意,任意,任意,任意,UDP,任意,137
+ネットワーク探索 (NB 名送信),ネットワーク探索,"パブリック",無効,送信,許可,System,任意,ローカルサブネット,任意,ローカルサブネット,UDP,任意,137
+ネットワーク探索 (NB 名送信),ネットワーク探索,"プライベート",有効,送信,許可,System,任意,ローカルサブネット,任意,ローカルサブネット,UDP,任意,137
+ネットワーク探索 (Pub WSD 送信),ネットワーク探索,"ドメイン, パブリック",無効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,任意,3702
+ネットワーク探索 (Pub WSD 送信),ネットワーク探索,"プライベート",有効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,任意,3702
+ネットワーク探索 (SSDP 送信),ネットワーク探索,"ドメイン, パブリック",無効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,任意,1900
+ネットワーク探索 (SSDP 送信),ネットワーク探索,"プライベート",有効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,任意,1900
+ネットワーク探索 (UPnP 送信),ネットワーク探索,"プライベート",有効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,任意,2869
+ネットワーク探索 (UPnP 送信),ネットワーク探索,"ドメイン",無効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,任意,2869
+ネットワーク探索 (UPnP 送信),ネットワーク探索,"パブリック",無効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,任意,2869
+ネットワーク探索 (UPnPHost 送信),ネットワーク探索,"プライベート",有効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,任意,2869
+ネットワーク探索 (UPnPHost 送信),ネットワーク探索,"ドメイン, パブリック",無効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,任意,2869
+ネットワーク探索 (WSD EventsSecure 送信),ネットワーク探索,"パブリック",無効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,任意,5358
+ネットワーク探索 (WSD EventsSecure 送信),ネットワーク探索,"プライベート",有効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,任意,5358
+ネットワーク探索 (WSD EventsSecure 送信),ネットワーク探索,"ドメイン",無効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,任意,5358
+ネットワーク探索 (WSD イベント送信),ネットワーク探索,"プライベート",有効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,任意,5357
+ネットワーク探索 (WSD イベント送信),ネットワーク探索,"パブリック",無効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,任意,5357
+ネットワーク探索 (WSD イベント送信),ネットワーク探索,"ドメイン",無効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,任意,5357
+ネットワーク探索 (WSD 送信),ネットワーク探索,"ドメイン, パブリック",無効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,任意,3702
+ネットワーク探索 (WSD 送信),ネットワーク探索,"プライベート",有効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,任意,3702
+ファイルとプリンターの共有 (LLMNR UDP 送信),ファイルとプリンターの共有,"すべて",無効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,任意,5355
+ファイルとプリンターの共有 (NB データグラム送信),ファイルとプリンターの共有,"プライベート, パブリック",無効,送信,許可,System,任意,ローカルサブネット,任意,ローカルサブネット,UDP,任意,138
+ファイルとプリンターの共有 (NB データグラム送信),ファイルとプリンターの共有,"ドメイン",無効,送信,許可,System,任意,任意,任意,任意,UDP,任意,138
+ファイルとプリンターの共有 (NB 名送信),ファイルとプリンターの共有,"ドメイン",無効,送信,許可,System,任意,任意,任意,任意,UDP,任意,137
+ファイルとプリンターの共有 (NB 名送信),ファイルとプリンターの共有,"プライベート, パブリック",無効,送信,許可,System,任意,ローカルサブネット,任意,ローカルサブネット,UDP,任意,137
+ファイルとプリンターの共有 (NB-Session 送信),ファイルとプリンターの共有,"ドメイン",無効,送信,許可,System,任意,任意,任意,任意,TCP,任意,139
+ファイルとプリンターの共有 (NB-Session 送信),ファイルとプリンターの共有,"プライベート, パブリック",無効,送信,許可,System,任意,ローカルサブネット,任意,ローカルサブネット,TCP,任意,139
+ファイルとプリンターの共有 (SMB 送信),ファイルとプリンターの共有,"プライベート, パブリック",無効,送信,許可,System,任意,ローカルサブネット,任意,ローカルサブネット,TCP,任意,445
+ファイルとプリンターの共有 (SMB 送信),ファイルとプリンターの共有,"ドメイン",無効,送信,許可,System,任意,任意,任意,任意,TCP,任意,445
+ファイルとプリンターの共有 (エコー要求 - ICMPv4 送信),ファイルとプリンターの共有,"ドメイン",無効,送信,許可,System,任意,任意,任意,任意,ICMPv4,RPC,任意
+ファイルとプリンターの共有 (エコー要求 - ICMPv4 送信),ファイルとプリンターの共有,"プライベート, パブリック",無効,送信,許可,System,任意,ローカルサブネット4,任意,ローカルサブネット4,ICMPv4,RPC,任意
+ファイルとプリンターの共有 (エコー要求 - ICMPv6 送信),ファイルとプリンターの共有,"プライベート, パブリック",無効,送信,許可,System,任意,ローカルサブネット6,任意,ローカルサブネット6,ICMPv6,RPC,任意
+ファイルとプリンターの共有 (エコー要求 - ICMPv6 送信),ファイルとプリンターの共有,"ドメイン",無効,送信,許可,System,任意,任意,任意,任意,ICMPv6,RPC,任意
+ファイルとプリンターの共有 (制限付き) (LLMNR-UDP 出力),ファイルとプリンターの共有 (制限付き),"すべて",無効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,任意,5355
+ファイルとプリンターの共有 (制限付き) (SMB 出力),ファイルとプリンターの共有 (制限付き),"すべて",無効,送信,許可,System,任意,任意,任意,任意,TCP,任意,445
+ファイルとプリンターの共有 (制限付き) (エコー要求 - ICMPv4 送信),ファイルとプリンターの共有 (制限付き),"すべて",無効,送信,許可,System,任意,任意,任意,任意,ICMPv4,RPC,任意
+ファイルとプリンターの共有 (制限付き) (エコー要求 - ICMPv6 送信),ファイルとプリンターの共有 (制限付き),"すべて",無効,送信,許可,System,任意,任意,任意,任意,ICMPv6,RPC,任意
+メールとアカウント,メールとアカウント,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+リモート アシスタンス (PNRP-送信),リモート アシスタンス,"パブリック",無効,送信,許可,%systemroot%\system32\svchost.exe,任意,任意,任意,任意,UDP,任意,任意
+リモート アシスタンス (PNRP-送信),リモート アシスタンス,"ドメイン, プライベート",有効,送信,許可,%systemroot%\system32\svchost.exe,任意,任意,任意,任意,UDP,任意,任意
+リモート アシスタンス (RA サーバー TCP 送信),リモート アシスタンス,"ドメイン",有効,送信,許可,%SystemRoot%\system32\raserver.exe,任意,任意,任意,任意,TCP,任意,任意
+リモート アシスタンス (SSDP TCP-送信),リモート アシスタンス,"ドメイン, プライベート",有効,送信,許可,System,任意,ローカルサブネット,任意,ローカルサブネット,TCP,任意,任意
+リモート アシスタンス (SSDP UDP-送信),リモート アシスタンス,"ドメイン, プライベート",有効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,任意,1900
+リモート アシスタンス (TCP 送信),リモート アシスタンス,"パブリック",無効,送信,許可,%SystemRoot%\system32\msra.exe,任意,任意,任意,任意,TCP,任意,任意
+リモート アシスタンス (TCP 送信),リモート アシスタンス,"ドメイン, プライベート",有効,送信,許可,%SystemRoot%\system32\msra.exe,任意,任意,任意,任意,TCP,任意,任意
+ルーティングとリモート アクセス (GRE 送信),ルーティングとリモート アクセス,"すべて",無効,送信,許可,System,任意,任意,任意,任意,47,任意,任意
+ルーティングとリモート アクセス (L2TP 送信),ルーティングとリモート アクセス,"すべて",無効,送信,許可,System,任意,任意,任意,任意,UDP,任意,1701
+ルーティングとリモート アクセス (PPTP 送信),ルーティングとリモート アクセス,"すべて",無効,送信,許可,System,任意,任意,任意,任意,TCP,任意,1723
+ワイヤレス ディスプレイ (TCP 出力),ワイヤレス ディスプレイ,"すべて",有効,送信,許可,%systemroot%\system32\WUDFHost.exe,任意,任意,任意,任意,TCP,任意,任意
+ワイヤレス ディスプレイ (UDP 出力),ワイヤレス ディスプレイ,"すべて",有効,送信,許可,%systemroot%\system32\WUDFHost.exe,任意,任意,任意,任意,UDP,任意,任意
+ワイヤレス ポータブル デバイス (SSDP 送信),ワイヤレス ポータブル デバイス,"すべて",無効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,UDP,任意,1900
+ワイヤレス ポータブル デバイス (TCP 送信),ワイヤレス ポータブル デバイス,"プライベート, パブリック",無効,送信,許可,%SystemRoot%\system32\wudfhost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,任意,15740
+ワイヤレス ポータブル デバイス (TCP 送信),ワイヤレス ポータブル デバイス,"ドメイン",無効,送信,許可,%SystemRoot%\system32\wudfhost.exe,任意,任意,任意,任意,TCP,任意,15740
+ワイヤレス ポータブル デバイス (UPnP 送信),ワイヤレス ポータブル デバイス,"すべて",無効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,任意,2869
+ワイヤレス ポータブル デバイス (UPnPHost 送信),ワイヤレス ポータブル デバイス,"すべて",無効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,任意,2869
+印刷キュー,印刷キュー,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+TCP 上の近接通信共有 (TCP 配分),近接通信共有,"すべて",有効,送信,許可,%SystemRoot%\system32\proximityuxhost.exe,任意,任意,任意,任意,TCP,任意,任意
+職場または学校アカウント,職場または学校アカウント,"ドメイン, プライベート, パブリック",有効,送信,許可,任意,任意,任意,任意,任意,任意,任意,任意
+推奨されるトラブルシューティングのクライアント (HTTP/HTTPS 送信),推奨されるトラブルシューティング,"すべて",有効,送信,許可,%SystemRoot%\system32\svchost.exe,任意,任意,任意,任意,TCP,任意,80 443
+分散トランザクション コーディネーター (TCP 送信),分散トランザクション コーディネーター,"ドメイン",無効,送信,許可,%SystemRoot%\system32\msdtc.exe,任意,任意,任意,任意,TCP,任意,任意
+分散トランザクション コーディネーター (TCP 送信),分散トランザクション コーディネーター,"プライベート, パブリック",無効,送信,許可,%SystemRoot%\system32\msdtc.exe,任意,ローカルサブネット,任意,ローカルサブネット,TCP,任意,任意

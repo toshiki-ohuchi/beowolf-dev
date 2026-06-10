@@ -1,0 +1,265 @@
+□,Active Directory Federation Services
+□,Active Directory Rights Management サービス
+□,,Active Directory Rights Management サーバー
+□,,ID フェデレーション サポート
+■,Active Directory ドメイン サービス
+□,Active Directory ライトウェイト ディレクトリ サービス
+□,Active Directory 証明書サービス
+□,,証明機関
+□,,オンライン レスポンダー
+□,,ネットワーク デバイス登録サービス
+□,,証明機関 Web 登録
+□,,証明書の登録 Web サービス
+□,,証明書の登録ポリシー Web サービス
+□,DHCP サーバー
+■,DNS サーバー
+□,FAX サーバー
+□,Host Guardian サービス
+□,Hyper-V
+■,Web サーバー (IIS)
+■,,Web サーバー
+■,,,HTTP 共通機能
+■,,,,HTTP エラー
+■,,,,ディレクトリの参照
+■,,,,既定のドキュメント
+■,,,,静的なコンテンツ
+■,,,,HTTP リダイレクト
+□,,,,WebDAV 発行
+■,,,セキュリティ
+■,,,,要求フィルター
+■,,,,IIS クライアント証明書マッピング認証
+□,,,,IP およびドメインの制限
+□,,,,SSL 証明書の集中サポート
+□,,,,URL 承認
+□,,,,Windows 認証
+■,,,,クライアント証明書マッピング認証
+□,,,,ダイジェスト認証
+■,,,,基本認証
+■,,,パフォーマンス
+■,,,,静的なコンテンツの圧縮
+□,,,,動的なコンテンツの圧縮
+■,,,状態と診断
+■,,,,HTTP ログ
+□,,,,ODBC ログ
+□,,,,カスタム ログ
+□,,,,トレース
+□,,,,ログ ツール
+■,,,,要求の監視
+■,,,アプリケーション開発
+□,,,,.NET 拡張機能 3.5
+■,,,,.NET 拡張機能 4.8
+□,,,,Application Initialization
+□,,,,ASP
+□,,,,ASP.NET 3.5
+■,,,,ASP.NET 4.8
+■,,,,CGI
+■,,,,ISAPI フィルター
+■,,,,ISAPI 拡張
+□,,,,WebSocket プロトコル
+□,,,,サーバー側インクルード
+□,,FTP サーバー
+□,,,FTP サービス
+□,,,FTP 拡張
+■,,管理ツール
+■,,,IIS 管理コンソール
+■,,,IIS 6 管理互換
+■,,,,IIS 6 メタベース互換
+■,,,,IIS 6 WMI 互換
+■,,,,IIS 6 スクリプト ツール
+■,,,,IIS 6 管理コンソール
+□,,,IIS 管理スクリプトおよびツール
+■,,,管理サービス
+□,Windows Deployment Services
+□,,Deployment Server
+□,,Transport Server
+□,Windows Server Update Services
+□,,WID Connectivity
+□,,WSUS Services
+□,,SQL Server Connectivity
+□,デバイス正常性構成証明
+□,ネットワーク ポリシーとアクセス サービス
+■,ファイル サービスと記憶域サービス
+■,,ファイル サービスおよび iSCSI サービス
+■,,,ファイル サーバー
+□,,,DFS レプリケーション
+□,,,DFS 名前空間
+□,,,iSCSI ターゲット サーバー
+□,,,iSCSI ターゲット記憶域プロバイダー (VDS および VSS ハードウェア プロバイダー)
+□,,,NFS サーバー
+□,,,データ重複除去
+□,,,ネットワーク ファイル用 BranchCache
+□,,,ファイル サーバー VSS エージェント サービス
+□,,,ファイル サーバー リソース マネージャー
+□,,,ワーク フォルダー
+■,,記憶域サービス
+□,ボリューム ライセンス認証サービス
+□,リモート アクセス
+□,,DirectAccess および VPN (RAS)
+□,,Web アプリケーション プロキシ
+□,,ルーティング
+□,リモート デスクトップ サービス
+□,,リモート デスクトップ Web アクセス
+□,,リモート デスクトップ ゲートウェイ
+□,,リモート デスクトップ セッション ホスト
+□,,リモート デスクトップ ライセンス
+□,,リモート デスクトップ仮想化ホスト
+□,,リモート デスクトップ接続ブローカー
+□,印刷とドキュメント サービス
+□,,プリント サーバー
+□,,LPD サービス
+□,,インターネット印刷
+□,.NET Framework 3.5 Features
+□,,.NET Framework 3.5 (.NET 2.0 および 3.0 を含む)
+□,,HTTP アクティブ化
+□,,非 HTTP アクティブ化
+■,.NET Framework 4.8 Features
+■,,.NET Framework 4.8
+■,,ASP.NET 4.8
+■,,WCF サービス
+□,,,HTTP アクティブ化
+□,,,TCP アクティブ化
+■,,,TCP ポート共有
+□,,,メッセージ キュー (MSMQ) アクティブ化
+□,,,名前付きパイプのアクティブ化
+■,Azure Arc Setup
+□,BitLocker ドライブ暗号化
+□,BitLocker ネットワーク ロック解除
+□,BranchCache
+□,Direct Play
+□,Enhanced Storage
+□,Fabric Management 用の VM シールド ツール
+□,Host Guardian Hyper-V サポート
+□,HTTP プロキシを経由した RPC
+□,I/O サービス品質
+□,IIS ホスト可能な Web コア
+□,IP アドレス管理 (IPAM) サーバー
+□,LPR ポート モニター
+□,Management OData IIS 拡張機能
+■,Microsoft Defender ウイルス対策
+□,MultiPoint Connector
+□,,MultiPoint Connector サービス
+□,,MultiPoint マネージャーおよび MultiPoint ダッシュ ボード
+□,NFS クライアント
+□,RAS 接続マネージャー管理キット (CMAK)
+□,RDC (Remote Differential Compression)
+□,Simple TCP/IP Services
+□,SMB 1.0/CIFS ファイル共有のサポート
+□,,SMB 1.0/CIFS クライアント
+□,,SMB 1.0/CIFS サーバー
+□,SMB 帯域幅の制限
+□,SMTP サーバー
+□,SNMP サービス
+□,,WMI SNMP プロバイダー
+□,Telnet クライアント
+□,TFTP クライアント
+□,WebDAV リダイレクター
+□,Windows Identity Foundation 3.5
+□,Windows Internal Database
+■,Windows PowerShell
+■,,Windows PowerShell 5.1
+□,,Windows PowerShell 2.0 エンジン
+□,,Windows PowerShell Desired State Configuration Service
+□,,Windows PowerShell Web Access
+□,Windows Search サービス
+□,Windows Server Migration Tools
+□,Windows Server バックアップ
+□,Windows Subsystem for Linux
+□,Windows TIFF IFilter
+■,Windows プロセス アクティブ化サービス
+■,,プロセス モデル
+□,,.NET 環境 3.5
+■,,構成 API
+□,Windows 生体認証フレームワーク
+□,Windows 標準ベースの記憶域の管理
+□,WinRM IIS 拡張機能
+□,WINS サーバー
+■,WoW64 サポート
+■,XPS Viewer
+□,インターネット印刷クライアント
+■,グループ ポリシーの管理
+□,コンテナー
+□,システム インサイト
+■,システム データ アーカイバー
+□,ストレージ移行サービス
+□,ストレージ移行サービス プロキシ
+□,セットアップおよびブート イベント収集
+□,データ センター ブリッジング
+□,ネットワーク仮想化
+□,ネットワーク負荷分散
+□,バックグラウンド インテリジェント転送サービス (BITS)
+□,,IIS サーバー拡張機能
+□,,コンパクト サーバー
+□,ピア名解決プロトコル
+□,フェールオーバー クラスタリング
+□,マルチパス I/O
+■,メッセージ キュー
+■,,メッセージ キュー サービス
+■,,,メッセージ キュー サーバー
+□,,,HTTP サポート
+□,,,ディレクトリ サービス統合
+□,,,マルチキャスト サポート
+□,,,メッセージ キュー トリガー
+□,,,ルーティング サービス
+□,,メッセージ キュー DCOM プロキシ
+□,メディア ファンデーション
+□,リモート アシスタンス
+■,リモート サーバー管理ツール
+□,,機能管理ツール
+□,,,SMTP サーバー ツール
+□,,,BitLocker ドライブ暗号化管理ユーティリティ
+□,,,,BitLocker ドライブ暗号化ツール
+□,,,,BitLocker 回復パスワード ビューアー
+□,,,BITS サーバー拡張ツール
+□,,,DataCenterBridging LLDP ツール
+□,,,IP アドレス管理 (IPAM) クライアント
+□,,,SNMP ツール
+□,,,Windows PowerShell のシステム インサイト モジュール
+□,,,Windows PowerShell 用記憶域レプリカ モジュール
+□,,,WINS サーバー ツール
+□,,,シールドされた VM のツール
+□,,,ストレージ移行サービス ツール
+□,,,ネットワーク負荷分散ツール
+□,,,フェールオーバー クラスタリング ツール
+□,,,,Windows PowerShell 用のフェールオーバー クラスター モジュール
+□,,,,フェールオーバー クラスター管理ツール
+□,,,,フェールオーバー クラスター コマンド インターフェイス
+□,,,,フェールオーバー クラスター自動化サーバー
+■,,役割管理ツール
+■,,,AD DS および AD LDS ツール
+■,,,,AD DS ツール
+■,,,,,Active Directory 管理センター
+■,,,,,AD DS スナップインおよびコマンドライン ツール
+□,,,,AD LDS スナップインおよびコマンドライン ツール
+■,,,,Windows PowerShell の Active Directory モジュール
+□,,,Hyper-V 管理ツール
+□,,,,Hyper-V GUI 管理ツール
+□,,,,Windows PowerShell 用 Hyper-V モジュール
+□,,,Windows Server Update Services ツール
+□,,,,API と PowerShell コマンドレット
+□,,,,ユーザー インターフェイス管理コンソール
+□,,,リモート デスクトップ サービス ツール
+□,,,,リモート デスクトップ ゲートウェイ ツール
+□,,,,リモート デスクトップ ライセンス ツール
+□,,,,リモート デスクトップ ライセンス診断機能ツール
+□,,,Active Directory Rights Management サービス ツール
+□,,,Active Directory 証明書サービス ツール
+□,,,,オンライン レスポンダー ツール
+□,,,,証明機関管理ツール
+□,,,DHCP サーバー ツール
+■,,,DNS サーバー ツール
+□,,,FAX サーバー ツール
+□,,,Windows Deployment Services Tools
+□,,,ネットワーク コントローラー管理ツール
+□,,,ネットワーク ポリシーとアクセス サービス ツール
+□,,,ファイル サービス ツール
+□,,,,DFS 管理ツール
+□,,,,ネットワーク ファイル システム管理ツールのサービス
+□,,,,ファイル サーバー リソース マネージャー ツール
+□,,,ボリューム ライセンス認証ツール
+□,,,リモート アクセス管理ツール
+□,,,,Windows PowerShell 用のリモート アクセス モジュール
+□,,,,リモート アクセス GUI ツールとコマンド ライン ツール
+□,,,印刷とドキュメント サービス ツール
+□,ワイヤレス LAN サービス
+□,記憶域レプリカ
+□,高品質な Windows オーディオ ビデオ エクスペリエンス

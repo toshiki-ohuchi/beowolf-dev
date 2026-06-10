@@ -1,0 +1,4 @@
+名前,ドライバ名,共有名,ポート名,IP,ポート,プロトコル,LPRキュー名,SNMP,コミュニティ,SNMPデバイスインデックス
+Microsoft Print to PDF (リダイレクト 2),Microsoft Print To PDF,,TS004
+Microsoft XPS Document Writer,Microsoft XPS Document Writer v4,,PORTPROMPT:
+Microsoft Print to PDF,Microsoft Print To PDF,,PORTPROMPT:

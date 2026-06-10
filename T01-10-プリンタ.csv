@@ -1,0 +1,6 @@
+名前,ドライバ名,共有名,ポート名,IP,ポート,プロトコル,LPRキュー名,SNMP,コミュニティ,SNMPデバイスインデックス
+OneNote (Desktop),Send to Microsoft OneNote 16 Driver,,nul:
+Microsoft Print to PDF,Microsoft Print To PDF,,PORTPROMPT:
+EPSON LP-S7180,EPSON LP-S7180,,192.168.11.141,192.168.11.141,9100,Raw,,False,,
+EPSON LP-S3290,EPSON LP-S3290,,192.168.11.142,192.168.11.142,9100,Raw,,False,,
+Adobe PDF,Adobe PDF Converter,,Documents\*.pdf
